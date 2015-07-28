@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.71.0 commit date:2014-06-25, commit time:18:36, hash:9337574</authoring_tool>
+    </contributor>
+    <created>2014-10-23T23:28:51</created>
+    <modified>2014-10-23T23:28:51</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="Camera-camera" name="Camera">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov sid="xfov">49.13434</xfov>
+            <aspect_ratio>1.777778</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">100</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="blender">
+          <YF_dofdist>0</YF_dofdist>
+          <shiftx>0</shiftx>
+          <shifty>0</shifty>
+        </technique>
+      </extra>
+    </camera>
+  </library_cameras>
+  <library_lights>
+    <light id="Lamp-light" name="Lamp">
+      <technique_common>
+        <directional>
+          <color sid="color">1 1 1</color>
+        </directional>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <adapt_thresh>0.000999987</adapt_thresh>
+          <area_shape>0</area_shape>
+          <area_size>1</area_size>
+          <area_sizey>1</area_sizey>
+          <area_sizez>1</area_sizez>
+          <atm_distance_factor>1</atm_distance_factor>
+          <atm_extinction_factor>1</atm_extinction_factor>
+          <atm_turbidity>2</atm_turbidity>
+          <att1>0</att1>
+          <att2>1</att2>
+          <backscattered_light>1</backscattered_light>
+          <bias>1</bias>
+          <blue>1</blue>
+          <buffers>1</buffers>
+          <bufflag>0</bufflag>
+          <bufsize>2880</bufsize>
+          <buftype>2</buftype>
+          <clipend>30.002</clipend>
+          <clipsta>1.000799</clipsta>
+          <compressthresh>0.04999995</compressthresh>
+          <dist sid="blender_dist">29.99998</dist>
+          <energy sid="blender_energy">1</energy>
+          <falloff_type>2</falloff_type>
+          <filtertype>0</filtertype>
+          <flag>0</flag>
+          <gamma sid="blender_gamma">1</gamma>
+          <green>1</green>
+          <halo_intensity sid="blnder_halo_intensity">1</halo_intensity>
+          <horizon_brightness>1</horizon_brightness>
+          <mode>8192</mode>
+          <ray_samp>1</ray_samp>
+          <ray_samp_method>1</ray_samp_method>
+          <ray_samp_type>0</ray_samp_type>
+          <ray_sampy>1</ray_sampy>
+          <ray_sampz>1</ray_sampz>
+          <red>1</red>
+          <samp>3</samp>
+          <shadhalostep>0</shadhalostep>
+          <shadow_b sid="blender_shadow_b">0</shadow_b>
+          <shadow_g sid="blender_shadow_g">0</shadow_g>
+          <shadow_r sid="blender_shadow_r">0</shadow_r>
+          <sky_colorspace>0</sky_colorspace>
+          <sky_exposure>1</sky_exposure>
+          <skyblendfac>1</skyblendfac>
+          <skyblendtype>1</skyblendtype>
+          <soft>3</soft>
+          <spotblend>0.15</spotblend>
+          <spotsize>75</spotsize>
+          <spread>1</spread>
+          <sun_brightness>1</sun_brightness>
+          <sun_effect_type>0</sun_effect_type>
+          <sun_intensity>1</sun_intensity>
+          <sun_size>1</sun_size>
+          <type>1</type>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="Stone_Wall2_jpg" name="Stone_Wall2_jpg">
+      <init_from>Stone%20Wall2.jpg</init_from>
+    </image>
+    <image id="Door_jpg" name="Door_jpg">
+      <init_from>Door.jpg</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="Stone_Wall2-effect">
+      <profile_COMMON>
+        <newparam sid="Stone_Wall2_jpg-surface">
+          <surface type="2D">
+            <init_from>Stone_Wall2_jpg</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Stone_Wall2_jpg-sampler">
+          <sampler2D>
+            <source>Stone_Wall2_jpg-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Stone_Wall2_jpg-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.08 0.08 0.08 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">100</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="Stone_Wall2_jpg-sampler"/>
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="Door-effect">
+      <profile_COMMON>
+        <newparam sid="Door_jpg-surface">
+          <surface type="2D">
+            <init_from>Door_jpg</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Door_jpg-sampler">
+          <sampler2D>
+            <source>Door_jpg-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Door_jpg-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.02 0.02 0.02 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Stone_Wall2-material" name="Stone_Wall2">
+      <instance_effect url="#Stone_Wall2-effect"/>
+    </material>
+    <material id="Door-material" name="Door">
+      <instance_effect url="#Door-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Celler-mesh" name="Celler">
+      <mesh>
+        <source id="Celler-mesh-positions">
+          <float_array id="Celler-mesh-positions-array" count="102">0.4509055 0.11075 0.9486516 -0.4509056 0.11075 0.9486515 -0.4509059 1.581315 0.9486514 0.4509049 1.581315 0.9486517 1.187856 -0.00955075 -1.154408 1.187856 -0.00955069 0.8455923 -1.187856 -0.00955069 0.8455922 -1.187855 -0.00955075 -1.154408 1 1.990449 -1.324568 0.9999994 1.990449 0.6754317 -1 1.990449 0.6754307 -1 1.990449 -1.324569 0.4509055 -0.00955069 1 -0.4509056 -0.00955069 0.9999999 0.4509059 2.118868 -1.170161 -0.4509052 2.118868 -1.170161 0.4509047 2.118868 0.829839 -0.4509061 2.118868 0.8298386 1.187856 0.11075 -1.154408 1.187856 0.11075 0.8455923 -1.187856 0.11075 0.8455922 -1.187855 0.11075 -1.154408 0.4509055 0.11075 1 -0.4509056 0.11075 0.9999999 -0.4509059 1.581315 0.9999998 0.4509049 1.581315 1 -1.187856 1.581315 -1.154408 -1.187856 1.581315 0.845592 1.187855 1.581315 0.8455927 1.187856 1.581315 -1.154407 0.4509055 0.11075 0.8527901 -0.4509056 0.11075 0.85279 -0.4509059 1.581315 0.8527899 0.4509049 1.581315 0.8527902</float_array>
+          <technique_common>
+            <accessor source="#Celler-mesh-positions-array" count="34" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Celler-mesh-normals">
+          <float_array id="Celler-mesh-normals-array" count="132">-2.64378e-7 0 1 -0.2277283 0.9737247 0 0.9087817 0.4172717 5.14592e-7 -0.3207767 0.2858407 0.9029936 -0.9087819 0.4172714 -1.89587e-7 0.2277284 0.9737247 1.35737e-7 0 1 0 0.3207756 0.2858408 0.902994 -3.78076e-7 0.3017889 0.9533749 1 0 0 -0.2050697 0 0.9787474 -1 0 -2.98023e-7 0.2050696 0 0.9787475 0 0 1 -1 0 -1.78814e-7 -1 -3.4452e-7 0 0.2050691 0 0.9787476 -0.2050698 0 0.9787473 1 3.24254e-7 5.36442e-7 0 1 0 0 -1 0 1 2.02659e-7 0 0 0 1 -0.2277285 0.9737247 0 0.9087817 0.4172719 4.87508e-7 -0.1833301 0.44809 0.8749889 -0.908782 0.4172713 -1.65495e-7 0.2277284 0.9737247 1.32123e-7 0 1 0 0.1833294 0.4480895 0.8749892 -1.90485e-7 0.3017886 0.9533749 1 9.90927e-7 0 -0.2050697 0 0.9787474 -1 0 -2.98023e-7 0.2050696 2.03209e-7 0.9787474 0 0 1 -1 -2.43191e-7 -2.98023e-7 -1 -3.4452e-7 0 0.2050696 -2.50868e-7 0.9787474 -0.2050697 0 0.9787474 1 -3.24254e-7 0 0 1 0 0 -1 0 1 2.02659e-7 0</float_array>
+          <technique_common>
+            <accessor source="#Celler-mesh-normals-array" count="44" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Celler-mesh-map-0">
+          <float_array id="Celler-mesh-map-0-array" count="264">0.8334558 0.1761478 0.8334559 0.6585489 0.04681414 0.6585489 -1.536306 2.811205 -2.229128 2.975841 -2.146416 0.541287 3.276529 -0.2417985 3.481493 0.3004826 1.072429 0.3004803 -1.480169 -0.15459 -1.456005 0.4798333 -2.146416 0.541287 3.19878 2.836761 0.7897167 2.836762 0.9946804 2.294482 -0.4560416 2.834115 -0.4342173 0.5003407 0.2488052 0.594224 -1.536306 2.811205 -1.456005 0.4798333 -0.4342173 0.5003407 0.2488052 0.594224 -0.4342173 0.5003407 -0.3770037 -0.1370443 -0.4342173 0.5003407 -1.456005 0.4798333 -1.480169 -0.15459 3.276532 -2.158048 3.276532 -2.013142 0.8674677 -2.013144 -1.492162 -1.993026 -2.47783 -1.977179 -2.481493 -2.135125 3.403742 0.3782309 3.403742 0.5231371 0.9946785 0.5231392 0.8147603 -1.902926 -0.2041857 -1.987336 -0.1989777 -2.158048 -0.2041857 -1.987336 -1.492162 -1.993026 -1.492915 -2.158049 3.403742 0.5231371 3.403744 2.29448 0.9946804 2.294482 -0.4526574 -0.2211524 -0.3296352 -1.900921 -0.2041857 -1.987336 0.5721588 0.02308934 -0.3770037 -0.1370443 -0.2041857 -1.987336 -1.480169 -0.15459 -2.445164 -0.0541228 -2.47783 -1.977179 3.276529 -0.2417985 0.8674651 -0.2418011 0.8674677 -2.013144 -0.2922976 -1.864815 -1.410553 -1.87492 -1.492162 -1.993026 -1.480169 -0.15459 -1.427622 -0.2687543 -0.4295485 -0.2499391 -1.480169 -0.15459 -1.492162 -1.993026 -1.375127 -1.912921 0.04681408 0.1761476 0.8334558 0.1761478 0.04681414 0.6585489 -1.456005 0.4798333 -1.536306 2.811205 -2.146416 0.541287 0.8674651 -0.2418011 3.276529 -0.2417985 1.072429 0.3004803 -2.445164 -0.0541228 -1.480169 -0.15459 -2.146416 0.541287 3.403744 2.29448 3.19878 2.836761 0.9946804 2.294482 0.2285273 3.027707 -0.4560416 2.834115 0.2488052 0.594224 -0.4560416 2.834115 -1.536306 2.811205 -0.4342173 0.5003407 0.5721588 0.02308934 0.2488052 0.594224 -0.3770037 -0.1370443 -0.3770037 -0.1370443 -0.4342173 0.5003407 -1.480169 -0.15459 0.8674677 -2.158049 3.276532 -2.158048 0.8674677 -2.013144 -1.492915 -2.158049 -1.492162 -1.993026 -2.481493 -2.135125 0.9946785 0.3782318 3.403742 0.3782309 0.9946785 0.5231392 0.8674651 -2.09069 0.8147603 -1.902926 -0.1989777 -2.158048 -0.1989777 -2.158048 -0.2041857 -1.987336 -1.492915 -2.158049 0.9946785 0.5231392 3.403742 0.5231371 0.9946804 2.294482 -0.3770037 -0.1370443 -0.4526574 -0.2211524 -0.2041857 -1.987336 0.8147603 -1.902926 0.5721588 0.02308934 -0.2041857 -1.987336 -1.492162 -1.993026 -1.480169 -0.15459 -2.47783 -1.977179 3.276532 -2.013142 3.276529 -0.2417985 0.8674677 -2.013144 -0.2041857 -1.987336 -0.2922976 -1.864815 -1.492162 -1.993026 -0.3770037 -0.1370443 -1.480169 -0.15459 -0.4295485 -0.2499391 -1.387368 -0.2309582 -1.480169 -0.15459 -1.375127 -1.912921</float_array>
+          <technique_common>
+            <accessor source="#Celler-mesh-map-0-array" count="132" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Celler-mesh-vertices">
+          <input semantic="POSITION" source="#Celler-mesh-positions"/>
+        </vertices>
+        <polylist material="Stone_Wall2-material" count="42">
+          <input semantic="VERTEX" source="#Celler-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Celler-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Celler-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>15 1 3 11 1 4 10 1 5 29 2 6 8 2 7 9 2 8 24 3 9 17 3 10 10 3 11 10 4 12 11 4 13 26 4 14 14 5 15 16 5 16 9 5 17 15 6 18 17 6 19 16 6 20 9 7 21 16 7 22 25 7 23 16 8 24 17 8 25 24 8 26 4 9 27 18 9 28 19 9 29 23 10 30 20 10 31 6 10 32 6 11 33 20 11 34 21 11 35 19 12 36 22 12 37 12 12 38 22 13 39 23 13 40 13 13 41 20 14 42 27 14 43 26 14 44 33 15 45 30 15 46 22 15 47 28 16 48 25 16 49 22 16 50 24 17 51 27 17 52 20 17 53 29 18 54 28 18 55 19 18 56 30 19 57 31 19 58 23 19 59 24 20 60 32 20 61 33 20 62 24 21 63 23 21 64 31 21 65 17 23 69 15 23 70 10 23 71 28 24 72 29 24 73 9 24 74 27 25 75 24 25 76 10 25 77 27 26 78 10 26 79 26 26 80 8 27 81 14 27 82 9 27 83 14 28 84 15 28 85 16 28 86 28 29 87 9 29 88 25 29 89 25 30 90 16 30 91 24 30 92 5 31 93 4 31 94 19 31 95 13 32 96 23 32 97 6 32 98 7 33 99 6 33 100 21 33 101 5 34 102 19 34 103 12 34 104 12 35 105 22 35 106 13 35 107 21 36 108 20 36 109 26 36 110 25 37 111 33 37 112 22 37 113 19 38 114 28 38 115 22 38 116 23 39 117 24 39 118 20 39 119 18 40 120 29 40 121 19 40 122 22 41 123 30 41 124 23 41 125 25 42 126 24 42 127 33 42 128 32 43 129 24 43 130 31 43 131</p>
+        </polylist>
+        <polylist material="Door-material" count="2">
+          <input semantic="VERTEX" source="#Celler-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Celler-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Celler-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 </vcount>
+          <p>3 0 0 2 0 1 1 0 2 0 22 66 3 22 67 1 22 68</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Celler" name="Celler" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 7.54979e-8 -1 3.501337 0 1 7.54979e-8 0 0 0 0 1</matrix>
+        <instance_geometry url="#Celler-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Stone_Wall2-material" target="#Stone_Wall2-material"/>
+              <instance_material symbol="Door-material" target="#Door-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Camera" name="Camera" type="NODE">
+        <matrix sid="transform">0.6858805 -0.3173701 0.6548619 8.789702 0.7276338 0.3124686 -0.6106656 -8.404783 -0.01081678 0.8953432 0.4452454 7.616721 0 0 0 1</matrix>
+        <instance_camera url="#Camera-camera"/>
+      </node>
+      <node id="Lamp" name="Lamp" type="NODE">
+        <matrix sid="transform">-0.2908646 -0.7711008 0.5663932 4.076245 0.9551712 -0.1998834 0.2183912 1.005454 -0.05518906 0.6045247 0.7946723 5.903862 0 0 0 1</matrix>
+        <instance_light url="#Lamp-light"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

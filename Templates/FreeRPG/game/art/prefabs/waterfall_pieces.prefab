@@ -1,0 +1,278 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterTopSpray";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "1.1076 5.11475 5.97563";
+      rotation = "0 0 -1 37.8417";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterTopSpray";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "0.366608 4.53876 5.97563";
+      rotation = "0 0 -1 37.8417";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterTopSpray";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-0.332367 3.99677 6.10866";
+      rotation = "0 0 -1 37.8417";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterTopSpray";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-1.39737 3.16974 6.12856";
+      rotation = "0 0 -1 37.8417";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterTopSpray";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-2.37338 2.41077 6.09135";
+      rotation = "0 0 -1 37.8417";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterTopSpray";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-3.30838 1.68475 5.95323";
+      rotation = "0 0 -1 37.8417";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterMainFalls";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "0.930634 4.18872 5.81944";
+      rotation = "-0.897314 -0.307583 -0.316576 94.5518";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterMainFalls02";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-0.692383 4.31573 6.14464";
+      rotation = "-0.893909 -0.306417 -0.327164 92.6742";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterMainFalls03";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-1.95438 3.59277 6.24364";
+      rotation = "-0.906932 -0.310878 -0.284305 100.655";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterMainFalls";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-2.95538 2.05072 5.69185";
+      rotation = "-0.941596 -0.227067 -0.248673 89.8483";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterRockImpact";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-0.0773926 -0.0142822 2.63535";
+      rotation = "-0.874475 -0.398214 -0.276982 96.4209";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterRockImpact";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-1.50638 -3.38123 -0.519669";
+      rotation = "-0.874475 -0.398214 -0.276982 96.4209";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterRockImpact";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-0.710388 -2.99927 -0.615463";
+      rotation = "-0.874475 -0.398214 -0.276982 96.4209";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterRockImpact";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "3.30661 -0.083252 -2.90016";
+      rotation = "-0.874475 -0.398214 -0.276982 96.4209";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterRockImpact";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "1.23062 -3.33228 -2.36957";
+      rotation = "-0.874475 -0.398214 -0.276982 96.4209";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterRockImpact";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-0.452393 -6.49225 -5.25006";
+      rotation = "-0.874475 -0.398214 -0.276982 96.4209";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterRockImpact";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "5.06662 -0.548279 -5.25626";
+      rotation = "-0.874475 -0.398214 -0.276982 96.4209";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterMist";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "2.77261 -8.48627 -7.64966";
+      rotation = "0 0 -1 37.8417";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterMist";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "5.71463 -5.07324 -7.64966";
+      rotation = "0 0 -1 37.8417";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterWaterDisturbance";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "7.56662 -3.39325 -6.68526";
+      rotation = "0 0 -1 37.8417";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterWaterDisturbance";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "3.48563 -6.61023 -6.68526";
+      rotation = "0 0 1 113.279";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new TSStatic() {
+      shapeName = "art/shapes/props/waterfall/waterfall_suds.DAE";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      receiveSunLight = "1";
+      receiveLMLighting = "1";
+      useCustomAmbientLighting = "0";
+      customAmbientLighting = "0 0 0 1";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      allowPlayerStep = "1";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-10.4054 3.26172 -11.3962";
+      rotation = "0 0 1 33.1039";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new TSStatic() {
+      shapeName = "art/shapes/rocks/chasmthree.DAE";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      receiveSunLight = "1";
+      receiveLMLighting = "1";
+      useCustomAmbientLighting = "0";
+      customAmbientLighting = "0 0 0 1";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      allowPlayerStep = "1";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-5.38239 2.09277 -5.79066";
+      rotation = "0 0 1 33.1039";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+};
+//--- OBJECT WRITE END ---

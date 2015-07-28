@@ -1,0 +1,143 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+
+   new PhysicsShape() {
+      dataBlock = "PSbowlB";
+      position = "-5.69289 1.32612 1.28706";
+      rotation = "0 0 1 78.3927";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+   new PhysicsShape() {
+      dataBlock = "PScolumnC";
+      position = "-5.69289 1.32612 1.28706";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+   new PhysicsShape() {
+      dataBlock = "PScolumnB";
+      position = "-5.69289 1.32612 1.28706";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+   new PhysicsShape() {
+      dataBlock = "PScolumnE";
+      position = "-5.69289 1.32612 1.28706";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSbowlB";
+      position = "-5.69289 1.32612 1.28706";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSledge";
+      position = "-5.69289 1.32612 1.28706";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSbowlA";
+      position = "-5.69289 1.32612 1.28706";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+   new PhysicsShape() {
+      dataBlock = "PScolumnD";
+      position = "-5.69289 1.32612 1.28706";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+   new PhysicsShape() {
+      dataBlock = "PScolumnA";
+      position = "-5.69289 1.32612 1.28706";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSrobot";
+      position = "-5.69289 1.32612 1.28706";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+   new TSStatic() {
+      shapeName = "art/shapes/structures/ruins/shrine_stage.DAE";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      allowPlayerStep = "1";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-5.69289 1.32612 1.28706";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+};
+//--- OBJECT WRITE END ---

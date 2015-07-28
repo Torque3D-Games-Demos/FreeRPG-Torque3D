@@ -1,0 +1,737 @@
+###############################################
+FreeRPG Project OpenGameArt Asset Credits
+###############################################
+
+Title:
+    3TD Harbour Pack
+
+Author:
+    Ron Kapaun
+
+URL:
+    http://opengameart.org/content/3td-harbour-pack
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required but it would be nice if you could credit Ron Kapaun/3TD Studios if you use any of these.
+
+File(s):
+    * 3td_Harbor Pack.zip
+
+----------------------------------------
+
+Title:
+    3TD Fantasy Ruins Pack
+
+Author:
+    Ron Kapaun
+
+URL:
+    http://opengameart.org/content/3td-fantasy-ruins-pack
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required but it would be nice if you could credit Ron Kapaun/3TD Studios if you use any of these.
+
+File(s):
+    * Fantasy Ruins Pack.zip
+
+----------------------------------------
+
+Title:
+    3TD Africa Savanna Pack v1.0
+
+Author:
+    Ron Kapaun
+
+URL:
+    http://opengameart.org/content/3td-africa-savanna-pack-v10
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required but it would be nice if you could credit Ron Kapaun/3TD Studios if you use any of these.
+
+File(s):
+    * Africa Savanna Pack v1.0.zip
+
+----------------------------------------
+
+Title:
+    3TD Tropical Environment Pack v2.0
+
+Author:
+    Ron Kapaun
+
+URL:
+    http://opengameart.org/content/3td-tropical-environment-pack-v20
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required but it would be nice if you could credit Ron Kapaun/3TD Studios if you use any of these.
+
+File(s):
+    * Tropical_Environment_Pack_v2.0.zip
+
+----------------------------------------
+
+Title:
+    3TD Starter Pack #1
+
+Author:
+    Ron Kapaun
+
+URL:
+    http://opengameart.org/content/3td-starter-pack-1
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required but it would be nice if you could credit Ron Kapaun/3TD Studios if you use any of these.
+
+File(s):
+    * 3TD_Starter Pack.zip
+
+----------------------------------------
+
+Title:
+    3TD Furniture Pack
+
+Author:
+    Ron Kapaun
+
+URL:
+    http://opengameart.org/content/3td-furniture-pack
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required but it would be nice if you could credit Ron Kapaun/3TD Studios if you use any of these.
+
+File(s):
+    * 3TD_FurniturePack.zip
+
+----------------------------------------
+
+Title:
+    3TD Conifer Forest Pack v1.1
+
+Author:
+    Ron Kapaun
+
+URL:
+    http://opengameart.org/content/3td-conifer-forest-pack-v11
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required but it would be nice if you could credit Ron Kapaun/3TD Studios if you use any of these.
+
+File(s):
+    * Conifer Forest Pack_v1.1.zip
+
+----------------------------------------
+
+Title:
+    3TD Industrial Pack
+
+Author:
+    Ron Kapaun
+
+URL:
+    http://opengameart.org/content/3td-industrial-pack
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required but it would be nice if you could credit Ron Kapaun/3TD Studios if you use any of these.
+
+File(s):
+    * 3TD_IndustrialPack.zip
+
+----------------------------------------
+
+Title:
+    3TD Office Starter Pack
+
+Author:
+    Ron Kapaun
+
+URL:
+    http://opengameart.org/content/3td-office-starter-pack
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required but it would be nice if you could credit Ron Kapaun/3TD Studios if you use any of these.
+
+File(s):
+    * 3TD_Office Starter.zip
+
+----------------------------------------
+
+Title:
+    3TD Cave Pack Pro v1.0
+
+Author:
+    Ron Kapaun
+
+URL:
+    http://opengameart.org/content/3td-cave-pack-pro-v10
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required but it would be nice if you could credit Ron Kapaun/3TD Studios if you use any of these.
+
+File(s):
+    * CAVE_PACK_PRO v.1.0.zip
+
+----------------------------------------
+
+Title:
+    Medieval Church
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/medieval-church
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 75990_Church1Upload_blend.zip
+
+----------------------------------------
+
+Title:
+    Medieval Containers
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/medieval-containers
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 76295_ContainersUpload_blend.zip
+
+----------------------------------------
+
+Title:
+    Medieval Smith Pack
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/medieval-smith-pack
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 75579_Smith1Upload_blend.zip
+
+----------------------------------------
+
+Title:
+    Medieval House Pack
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/medieval-house-pack
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 75519_House1Upload_blend.zip
+    * 75861_House2_1Upload_blend.zip
+    * 75862_House3Upload_blend.zip
+    * 75864_House4Upload_blend.zip
+
+----------------------------------------
+
+Title:
+    Medieval Waterpowered Sawmill
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/medieval-waterpowered-sawmill
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 75340_WaterPoweredSawmillUpload_blend.zip
+
+----------------------------------------
+
+Title:
+    Medieval Blacksmith
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/medieval-blacksmith
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 75729_Blacksmith1Upload_blend.zip
+
+----------------------------------------
+
+Title:
+    Medieval Tavern
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/medieval-tavern
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 75282_ThePaintedWench_02Upload_blend.zip
+
+----------------------------------------
+
+Title:
+    Medieval Well
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/medieval-well
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 55087_well.zip
+
+----------------------------------------
+
+Title:
+    Medieval Props Pack 1
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/medieval-props-pack-1
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 55083_props1.zip
+
+----------------------------------------
+
+Title:
+    Modular Medieval Building Pack
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/modular-medieval-building-pack
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 74694_Windows1Upload_blend.zip
+    * 74695_Doors1Upload_blend.zip
+    * 74696_HousePack1_2Upload_blend.zip
+    * 74697_HousePack2_2Upload_blend.zip
+    * 74698_BalconyUpload_blend.zip
+    * 74699_ChimneyUpload_blend.zip
+    * 74700_BuildingExtensionsUpload_blend.zip
+    * 74701_StairsUpload_blend.zip
+    * 74702_ExtraRoof1Upload_blend.zip
+    * 74703_SignsUpload_blend.zip
+
+----------------------------------------
+
+Title:
+    Medieval Statue
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/medieval-statue
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 75885_InnansorraStatueUpload_blend.zip
+
+----------------------------------------
+
+Title:
+    Medieval Props Pack 3
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/medieval-props-pack-3
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 55189_props3.zip
+
+----------------------------------------
+
+Title:
+    Medieval Props Pack 2
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/medieval-props-pack-2
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 55181_props2.zip
+
+----------------------------------------
+
+Title:
+    Medieval Gatehouse
+
+Author:
+    Daniel Andersson
+
+URL:
+    http://opengameart.org/content/medieval-gatehouse
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson.
+
+File(s):
+    * 76122_GateHouse2Upload_blend.zip
+
+----------------------------------------
+
+Title:
+    Modular Medieval House Pack 01
+
+Author:
+    hreikin
+
+URL:
+    http://opengameart.org/content/modular-medieval-house-pack-01
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson and Hreikin
+
+File(s):
+    * MedievalHousePack01.zip
+
+----------------------------------------
+
+Title:
+    Modular Medieval House Pack 02
+
+Author:
+    hreikin
+
+URL:
+    http://opengameart.org/content/modular-medieval-house-pack-02
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson and Hreikin
+
+File(s):
+    * MedievalHousePack02.zip
+
+----------------------------------------
+
+Title:
+    Modular Medieval House Pack 03
+
+Author:
+    hreikin
+
+URL:
+    http://opengameart.org/content/modular-medieval-house-pack-03
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson and Hreikin
+
+File(s):
+    * MedievalHousePack03.zip
+
+----------------------------------------
+
+Title:
+    Modular Medieval House Pack 04
+
+Author:
+    hreikin
+
+URL:
+    http://opengameart.org/content/modular-medieval-house-pack-04
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson and Hreikin
+
+File(s):
+    * MedievalHousePack04.zip
+
+----------------------------------------
+
+Title:
+    Modular Medieval House Pack 05
+
+Author:
+    hreikin
+
+URL:
+    http://opengameart.org/content/modular-medieval-house-pack-05
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson and Hreikin
+
+File(s):
+    * MedievalHousePack05.zip
+
+----------------------------------------
+
+Title:
+    Modular Medieval House Pack 06
+
+Author:
+    hreikin
+
+URL:
+    http://opengameart.org/content/modular-medieval-house-pack-06
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    None required, but it would be nice if you could credit Daniel Andersson and Hreikin
+
+File(s):
+    * MedievalHousePack06.zip
+
+----------------------------------------
+
+Title:
+    Rope Fence
+
+Author:
+    Clint Bellanger
+
+URL:
+    http://opengameart.org/content/rope-fence
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * rope_fence.zip
+
+----------------------------------------
+
+Title:
+    Basic Wooden Fence
+
+Author:
+    WeaponGuy
+
+URL:
+    http://opengameart.org/content/basic-wooden-fence
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * picketfence_0.blend
+
+----------------------------------------
+
+Title:
+    Konserian Swamptree
+
+Author:
+    Duion
+
+URL:
+    http://opengameart.org/content/konserian-swamptree
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * duions_konserian_swamptree_01.zip
+
+----------------------------------------
+
+Title:
+    Konserian Highlands set
+
+Author:
+    Duion
+
+URL:
+    http://opengameart.org/content/konserian-highlands-set
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * konserian_highlands.zip
+
+----------------------------------------
+
+Title:
+    UberPack-1
+
+Author:
+    Duion
+
+URL:
+    http://opengameart.org/content/uberpack-1
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * UberPack-1.zip
+    * volcav_island_cave_fixed.zip
+
+----------------------------------------
+
+Title:
+    Example Terrains
+
+Author:
+    Duion
+
+URL:
+    http://opengameart.org/content/example-terrains
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * ExampleTerrains.zip
+
+----------------------------------------
+
+Title:
+    macarena
+
+Author:
+    Duion
+
+URL:
+    http://opengameart.org/content/macarena
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * macarena.zip
+
+----------------------------------------
+
+

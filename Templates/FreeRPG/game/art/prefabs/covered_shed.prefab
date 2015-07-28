@@ -1,0 +1,55 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+
+   new PhysicsShape() {
+      dataBlock = "PScoveredshed1";
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+   new PhysicsShape() {
+      dataBlock = "PScoveredshed2";
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+   new PhysicsShape() {
+      dataBlock = "PScoveredshed4";
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+   new PhysicsShape() {
+      dataBlock = "PScoveredshed3";
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         areaImpulse = "0";
+         damageRadius = "0";
+         invulnerable = "0";
+         minDamageAmount = "0";
+         radiusDamage = "0";
+   };
+};
+//--- OBJECT WRITE END ---

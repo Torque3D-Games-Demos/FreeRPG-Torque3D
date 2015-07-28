@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Duion</author>
+      <authoring_tool>Blender 2.65.0 r53189</authoring_tool>
+    </contributor>
+    <created>2013-06-12T14:04:52</created>
+    <modified>2013-06-12T14:04:52</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_lights>
+    <light id="Hemi-light" name="Hemi">
+      <technique_common>
+        <ambient>
+          <color>1 1 1</color>
+        </ambient>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <adapt_thresh>0.000999987</adapt_thresh>
+          <area_shape>0</area_shape>
+          <area_size>0.1</area_size>
+          <area_sizey>0.1</area_sizey>
+          <area_sizez>0.1</area_sizez>
+          <atm_distance_factor>1</atm_distance_factor>
+          <atm_extinction_factor>1</atm_extinction_factor>
+          <atm_turbidity>2</atm_turbidity>
+          <att1>0</att1>
+          <att2>1</att2>
+          <backscattered_light>1</backscattered_light>
+          <bias>1</bias>
+          <blue>1</blue>
+          <buffers>1</buffers>
+          <bufflag>0</bufflag>
+          <bufsize>512</bufsize>
+          <buftype>2</buftype>
+          <clipend>40</clipend>
+          <clipsta>0.5</clipsta>
+          <compressthresh>0.04999995</compressthresh>
+          <dist sid="blender_dist">25</dist>
+          <energy sid="blender_energy">1</energy>
+          <falloff_type>2</falloff_type>
+          <filtertype>0</filtertype>
+          <flag>0</flag>
+          <gamma sid="blender_gamma">1</gamma>
+          <green>1</green>
+          <halo_intensity sid="blnder_halo_intensity">1</halo_intensity>
+          <horizon_brightness>1</horizon_brightness>
+          <mode>1</mode>
+          <ray_samp>1</ray_samp>
+          <ray_samp_method>1</ray_samp_method>
+          <ray_samp_type>0</ray_samp_type>
+          <ray_sampy>1</ray_sampy>
+          <ray_sampz>1</ray_sampz>
+          <red>1</red>
+          <samp>3</samp>
+          <shadhalostep>0</shadhalostep>
+          <shadow_b sid="blender_shadow_b">0</shadow_b>
+          <shadow_g sid="blender_shadow_g">0</shadow_g>
+          <shadow_r sid="blender_shadow_r">0</shadow_r>
+          <shadspotsize>45</shadspotsize>
+          <sky_colorspace>2</sky_colorspace>
+          <sky_exposure>1</sky_exposure>
+          <skyblendfac>1</skyblendfac>
+          <skyblendtype>1</skyblendtype>
+          <soft>3</soft>
+          <spotblend>0.15</spotblend>
+          <spotsize>45</spotsize>
+          <spread>1</spread>
+          <sun_brightness>1</sun_brightness>
+          <sun_effect_type>0</sun_effect_type>
+          <sun_intensity>1</sun_intensity>
+          <sun_size>1</sun_size>
+          <type>3</type>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images/>
+  <library_effects>
+    <effect id="broadfern_01-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0</float>
+            </transparency>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="broadfern_01-material" name="broadfern_01">
+      <instance_effect url="#broadfern_01-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="broadfern128-mesh" name="broadfern128">
+      <mesh>
+        <source id="broadfern128-mesh-positions">
+          <float_array id="broadfern128-mesh-positions-array" count="24">1.530485 0.2790185 1.198369 -1.525851 0.3937566 1.141772 1.189885 1.601495 1.826257 -1.124343 1.689033 1.783745 -0.008682131 0.03469789 -0.2553123 0.0956211 3.458326 1.612144 0.04832071 2.182694 1.405671 0.00876367 0.966337 0.8748325</float_array>
+          <technique_common>
+            <accessor source="#broadfern128-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="broadfern128-mesh-normals">
+          <float_array id="broadfern128-mesh-normals-array" count="24">-0.03222751 -0.6111942 0.7907956 0.3486739 -0.5981017 0.7215796 -0.0374462 -0.7707755 0.6359753 -0.4091922 -0.5709403 0.7117221 0.3722648 -0.3830378 0.8453627 -0.4221015 -0.3548997 0.8341624 -0.02322459 -0.2565691 0.966216 -0.02362132 -0.1588793 0.9869991</float_array>
+          <technique_common>
+            <accessor source="#broadfern128-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="broadfern128-mesh-map-0">
+          <float_array id="broadfern128-mesh-map-0-array" count="48">0.4867426 0.3457155 0 0.2754623 0.5032262 0 0.5032262 0 1 0.272086 0.4867426 0.3457155 0.1160365 0.6108362 0 0.2754623 0.4867426 0.3457155 1 0.272086 0.8805558 0.6080914 0.4867426 0.3457155 0.1160365 0.6108362 0.4867426 0.3457155 0.4946865 0.6880772 0.4946865 0.6880772 0.4867426 0.3457155 0.8805558 0.6080914 0.5024468 1 0.1160365 0.6108362 0.4946865 0.6880772 0.4946865 0.6880772 0.8805558 0.6080914 0.5024468 1</float_array>
+          <technique_common>
+            <accessor source="#broadfern128-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="broadfern128-mesh-colors">
+          <float_array id="broadfern128-mesh-colors-array" count="72">0.4627451 0 0 0.4509804 0 1 0 0 0 0 0 0 0.4784314 0 1 0.4627451 0 0 1 0 1 0.4509804 0 1 0.4627451 0 0 0.4784314 0 1 1 0 1 0.4627451 0 0 1 0 1 0.4627451 0 0 1 0 0 1 0 0 0.4627451 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 0 1 0 1 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#broadfern128-mesh-colors-array" count="24" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="broadfern128-mesh-vertices">
+          <input semantic="POSITION" source="#broadfern128-mesh-positions"/>
+        </vertices>
+        <polylist material="broadfern_01-material" count="8">
+          <input semantic="VERTEX" source="#broadfern128-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#broadfern128-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#broadfern128-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#broadfern128-mesh-colors" offset="3"/>
+          <vcount>3 3 3 3 3 3 3 3 </vcount>
+          <p>7 0 0 0 1 1 1 1 4 2 2 2 4 2 3 3 0 3 4 4 7 0 5 5 3 4 6 6 1 1 7 7 7 0 8 8 0 3 9 9 2 5 10 10 7 0 11 11 3 4 12 12 7 0 13 13 6 6 14 14 6 6 15 15 7 0 16 16 2 5 17 17 5 7 18 18 3 4 19 19 6 6 20 20 6 6 21 21 2 5 22 22 5 7 23 23</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="broadfern8-mesh" name="broadfern8">
+      <mesh>
+        <source id="broadfern8-mesh-positions">
+          <float_array id="broadfern8-mesh-positions-array" count="12">1.558697 0.6489881 1.337691 -1.549026 0.7711067 1.28038 -0.01176184 -0.1275458 -0.1234585 0.08992046 3.408054 1.80636</float_array>
+          <technique_common>
+            <accessor source="#broadfern8-mesh-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="broadfern8-mesh-normals">
+          <float_array id="broadfern8-mesh-normals-array" count="12">-0.03421121 -0.478042 0.8776513 0.4537797 -0.4369335 0.7766045 -0.03378397 -0.4780725 0.8776513 -0.5099643 -0.4007691 0.7611011</float_array>
+          <technique_common>
+            <accessor source="#broadfern8-mesh-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="broadfern8-mesh-map-0">
+          <float_array id="broadfern8-mesh-map-0-array" count="12">0.5024468 1 0.006223976 0.3862017 0.5021551 -0.004409611 0.5021551 -0.004409611 0.9886828 0.3671143 0.5024468 1</float_array>
+          <technique_common>
+            <accessor source="#broadfern8-mesh-map-0-array" count="6" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="broadfern8-mesh-colors">
+          <float_array id="broadfern8-mesh-colors-array" count="18">1 0 0 0.5921569 0 1 0.04313725 0 0 0.04313725 0 0 0.6078432 0 1 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#broadfern8-mesh-colors-array" count="6" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="broadfern8-mesh-vertices">
+          <input semantic="POSITION" source="#broadfern8-mesh-positions"/>
+        </vertices>
+        <polylist material="broadfern_01-material" count="2">
+          <input semantic="VERTEX" source="#broadfern8-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#broadfern8-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#broadfern8-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#broadfern8-mesh-colors" offset="3"/>
+          <vcount>3 3 </vcount>
+          <p>3 0 0 0 1 1 1 1 2 2 2 2 2 2 3 3 0 3 4 4 3 0 5 5</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Hemi" name="Hemi" type="NODE">
+        <translate sid="location">13.26591 8.842865 2.098701</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_light url="#Hemi-light"/>
+      </node>
+      <node id="base01" name="base01" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <node id="start01" name="start01" type="NODE">
+          <translate sid="location">0 0 0</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 0</rotate>
+          <scale sid="scale">1 1 1</scale>
+          <node id="broadfern128" name="broadfern128" type="NODE">
+            <translate sid="location">2.98023e-8 0.07417728 2.98023e-8</translate>
+            <rotate sid="rotationZ">0 0 1 0</rotate>
+            <rotate sid="rotationY">0 1 0 0</rotate>
+            <rotate sid="rotationX">1 0 0 0</rotate>
+            <scale sid="scale">0.5557922 0.5557922 0.5557922</scale>
+            <instance_geometry url="#broadfern128-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="broadfern_01-material" target="#broadfern_01-material">
+                    <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="broadfern8" name="broadfern8" type="NODE">
+            <translate sid="location">2.98023e-8 0.07417728 2.98023e-8</translate>
+            <rotate sid="rotationZ">0 0 1 0</rotate>
+            <rotate sid="rotationY">0 1 0 0</rotate>
+            <rotate sid="rotationX">1 0 0 0</rotate>
+            <scale sid="scale">0.5557922 0.5557922 0.5557922</scale>
+            <instance_geometry url="#broadfern8-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="broadfern_01-material" target="#broadfern_01-material">
+                    <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="detail8" name="detail8" type="NODE">
+          <translate sid="location">0 0 0</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 0</rotate>
+          <scale sid="scale">1 1 1</scale>
+        </node>
+        <node id="detail128" name="detail128" type="NODE">
+          <translate sid="location">0 0 0</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 0</rotate>
+          <scale sid="scale">1 1 1</scale>
+        </node>
+        <node id="nulldetail0" name="nulldetail0" type="NODE">
+          <translate sid="location">0 0 0</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 0</rotate>
+          <scale sid="scale">1 1 1</scale>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

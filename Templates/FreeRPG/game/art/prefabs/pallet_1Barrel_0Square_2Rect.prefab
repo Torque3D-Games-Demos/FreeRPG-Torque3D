@@ -1,0 +1,39 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+
+   new PhysicsShape() {
+      dataBlock = "PSBarrel";
+      position = "0.401245 0.684021 -0.0503082";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSCrateRect";
+      position = "-0.141754 -0.383972 0.638092";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSCrateRect";
+      position = "-0.141754 -0.383972 -0.213905";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSPallet";
+      position = "-0.117737 0.0840454 -0.373909";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+};
+//--- OBJECT WRITE END ---

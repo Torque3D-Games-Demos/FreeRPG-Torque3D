@@ -1,0 +1,60 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+
+   new TSStatic() {
+      shapeName = "art/shapes/rocks/13_ggrocktwo.DAE";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      receiveSunLight = "1";
+      receiveLMLighting = "1";
+      useCustomAmbientLighting = "0";
+      customAmbientLighting = "0 0 0 1";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      allowPlayerStep = "1";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-0.0617371 0.903809 -0.610031";
+      rotation = "-0.660857 -0.563946 -0.495211 109.069";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterRockImpact";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "1.06146 -1.04144 0.270828";
+      rotation = "-0.427926 0.623568 0.65425 142.486";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterRockImpact";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-0.238617 -0.720581 0.270828";
+      rotation = "-0.369211 0.645561 0.668532 148.702";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterWaterDisturbance";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-0.761169 0.858215 0.0683899";
+      rotation = "0 0 -1 37.8417";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+};
+//--- OBJECT WRITE END ---

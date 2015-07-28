@@ -1,0 +1,57 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+
+   new PointLight() {
+      radius = "5";
+      isEnabled = "1";
+      color = "0.862745 0.827451 0.556863 0.751";
+      brightness = "1.2";
+      castShadows = "0";
+      priority = "1";
+      animate = "1";
+      animationPeriod = "1";
+      animationPhase = "1";
+      flareType = "TikiLightFlare";
+      flareScale = "0.25";
+      attenuationRatio = "0 1 1";
+      shadowType = "DualParaboloid";
+      texSize = "512";
+      overDarkFactor = "200 1000 500 100";
+      shadowDistance = "400";
+      shadowSoftness = "1";
+      numSplits = "1";
+      logWeight = "0.1";
+      fadeStartDistance = "0";
+      lastSplitTerrainOnly = "0";
+      representedInLightmap = "0";
+      shadowDarkenColor = "0 0 0 -1";
+      includeLightmappedGeometryInShadow = "0";
+      position = "-0.000183105 -0.00152588 1.85648";
+      rotation = "1 0 0 0";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new TSStatic() {
+      shapeName = "art/shapes/props/electrotiki/electrotiki.DAE";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      receiveSunLight = "1";
+      receiveLMLighting = "1";
+      useCustomAmbientLighting = "0";
+      customAmbientLighting = "0 0 0 1";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      allowPlayerStep = "1";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "0.000183105 0.00152588 -1.85648";
+      rotation = "1 0 0 0";
+      scale = "2 2 2";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+};
+//--- OBJECT WRITE END ---

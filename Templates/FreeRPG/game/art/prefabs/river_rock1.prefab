@@ -1,0 +1,49 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterWaterDisturbance";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "-0.872223 0.827637 0.590843";
+      rotation = "0 0 -1 37.8417";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new TSStatic() {
+      shapeName = "art/shapes/rocks/16_smallrocktwo.DAE";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      receiveSunLight = "1";
+      receiveLMLighting = "1";
+      useCustomAmbientLighting = "0";
+      customAmbientLighting = "0 0 0 1";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      allowPlayerStep = "1";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-0.220642 0.109436 -0.901794";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ParticleEmitterNode() {
+      active = "1";
+      emitter = "EmitterRockImpact";
+      velocity = "1";
+      dataBlock = "DefaultParticleEmitterNodeData";
+      position = "1.0928 -0.937256 0.310944";
+      rotation = "-0.341632 0.631419 0.69613 156.859";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+};
+//--- OBJECT WRITE END ---

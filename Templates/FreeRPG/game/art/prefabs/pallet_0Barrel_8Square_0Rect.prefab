@@ -1,0 +1,79 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+
+   new PhysicsShape() {
+      dataBlock = "PSPallet";
+      position = "-0.00912476 -0.0390625 -0.754173";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSCrateSquare";
+      position = "0.594513 0.593018 -0.428856";
+      rotation = "0 0 -1 89.933";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSCrateSquare";
+      position = "0.594635 -0.583252 -0.428856";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSCrateSquare";
+      position = "-0.592346 -0.583252 -0.428856";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSCrateSquare";
+      position = "-0.592224 0.593018 -0.428856";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSCrateSquare";
+      position = "-0.592224 0.593018 0.623268";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSCrateSquare";
+      position = "0.594635 0.592896 0.615486";
+      rotation = "0 0 -1 89.933";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSCrateSquare";
+      position = "0.594635 -0.58313 0.615486";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new PhysicsShape() {
+      dataBlock = "PSCrateSquare";
+      position = "-0.592346 -0.58313 0.615486";
+      rotation = "0 0 -1 90";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+};
+//--- OBJECT WRITE END ---

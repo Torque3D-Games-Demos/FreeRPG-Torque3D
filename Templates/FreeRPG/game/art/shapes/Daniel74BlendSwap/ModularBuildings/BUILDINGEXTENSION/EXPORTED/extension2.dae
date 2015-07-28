@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.71.0 commit date:2014-06-25, commit time:18:36, hash:9337574</authoring_tool>
+    </contributor>
+    <created>2014-11-09T18:25:12</created>
+    <modified>2014-11-09T18:25:12</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Plaster_jpg" name="Plaster_jpg">
+      <init_from>Plaster.jpg</init_from>
+    </image>
+    <image id="RoofTiles_jpg" name="RoofTiles_jpg">
+      <init_from>RoofTiles.jpg</init_from>
+    </image>
+    <image id="Wood_jpg" name="Wood_jpg">
+      <init_from>Wood.jpg</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="Plaster-effect">
+      <profile_COMMON>
+        <newparam sid="Plaster_jpg-surface">
+          <surface type="2D">
+            <init_from>Plaster_jpg</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Plaster_jpg-sampler">
+          <sampler2D>
+            <source>Plaster_jpg-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Plaster_jpg-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.02631579 0.02631579 0.02631579 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="RoofTiles-effect">
+      <profile_COMMON>
+        <newparam sid="RoofTiles_jpg-surface">
+          <surface type="2D">
+            <init_from>RoofTiles_jpg</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="RoofTiles_jpg-sampler">
+          <sampler2D>
+            <source>RoofTiles_jpg-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="RoofTiles_jpg-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.00203893 0.00203893 0.00203893 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Wood-effect">
+      <profile_COMMON>
+        <newparam sid="Wood_jpg-surface">
+          <surface type="2D">
+            <init_from>Wood_jpg</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Wood_jpg-sampler">
+          <sampler2D>
+            <source>Wood_jpg-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Wood_jpg-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">2.74542e-4 1.05055e-4 6.99105e-5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Plaster-material" name="Plaster">
+      <instance_effect url="#Plaster-effect"/>
+    </material>
+    <material id="RoofTiles-material" name="RoofTiles">
+      <instance_effect url="#RoofTiles-effect"/>
+    </material>
+    <material id="Wood-material" name="Wood">
+      <instance_effect url="#Wood-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="HouseExtension1-mesh" name="HouseExtension1">
+      <mesh>
+        <source id="HouseExtension1-mesh-positions">
+          <float_array id="HouseExtension1-mesh-positions-array" count="30">0.5543357 1.780498 -0.5059451 0.5543357 -0.5543358 -0.5059451 -0.5543359 -0.5543357 -0.5059451 -0.5543355 1.780499 -0.5059451 0.554336 1.780498 0.6027264 0.5543354 -0.5543362 0.6027264 -0.554336 -0.5543355 0.6027264 -0.5543358 1.780498 0.6027264 0 -0.5543358 -0.5059451 -3.16112e-7 -0.5543359 1.32501</float_array>
+          <technique_common>
+            <accessor source="#HouseExtension1-mesh-positions-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HouseExtension1-mesh-normals">
+          <float_array id="HouseExtension1-mesh-normals-array" count="24">1 -2.55284e-7 3.22573e-7 -5.60313e-7 -1 0 -1 0 0 -6.22456e-7 -1 0 1 0 -2.15049e-7 -2.15049e-7 -1 0 -1 1.53171e-7 -2.15049e-7 0 -1 -3.76336e-7</float_array>
+          <technique_common>
+            <accessor source="#HouseExtension1-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HouseExtension1-mesh-map-0">
+          <float_array id="HouseExtension1-mesh-map-0-array" count="48">2.026492 0.6204074 0.8200334 0.6204105 0.8200325 0.04753655 0.5335958 0.0475375 0.5335961 0.9936298 0.2471594 0.6204107 0.2471595 0.04753798 0.2471594 0.6204107 -0.9592958 0.6204118 0.8200334 0.6204105 0.5335961 0.9936298 0.5335958 0.0475375 2.026491 0.04753321 2.026492 0.6204074 0.8200325 0.04753655 0.2471595 0.04753798 0.5335958 0.0475375 0.2471594 0.6204107 -0.9592958 0.04753869 0.2471595 0.04753798 -0.9592958 0.6204118 0.8200325 0.04753655 0.8200334 0.6204105 0.5335958 0.0475375</float_array>
+          <technique_common>
+            <accessor source="#HouseExtension1-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="HouseExtension1-mesh-vertices">
+          <input semantic="POSITION" source="#HouseExtension1-mesh-positions"/>
+        </vertices>
+        <polylist material="Plaster-material" count="8">
+          <input semantic="VERTEX" source="#HouseExtension1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#HouseExtension1-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#HouseExtension1-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 </vcount>
+          <p>4 0 0 5 0 1 1 0 2 8 1 3 9 1 4 6 1 5 2 2 6 6 2 7 7 2 8 5 3 9 9 3 10 8 3 11 0 4 12 4 4 13 1 4 14 2 5 15 8 5 16 6 5 17 3 6 18 2 6 19 7 6 20 1 7 21 5 7 22 8 7 23</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="HosueExtension1Roof-mesh" name="HosueExtension1Roof">
+      <mesh>
+        <source id="HosueExtension1Roof-mesh-positions">
+          <float_array id="HosueExtension1Roof-mesh-positions-array" count="27">0.6473282 1.808639 0.5633876 0.6473275 -0.6074184 0.5645992 0.6473278 0.1639348 0.5639934 -0.6473282 1.808639 0.5633876 -0.6473275 -0.6074184 0.5645992 -0.6473278 0.1639348 0.5639934 0 1.808639 1.392104 0 -0.6875631 1.389532 0 0.1238624 1.370007</float_array>
+          <technique_common>
+            <accessor source="#HosueExtension1Roof-mesh-positions-array" count="9" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HosueExtension1Roof-mesh-normals">
+          <float_array id="HosueExtension1Roof-mesh-normals-array" count="24">0.7859153 0.01487451 0.6181553 0.7798526 -0.008209347 0.6259093 -0.7859153 0.01487451 0.6181553 -0.7798526 -0.008209347 0.6259093 0.7796677 4.91406e-4 0.6261933 0.7880736 2.26525e-4 0.615581 -0.7796677 4.91403e-4 0.6261934 -0.7880736 2.26554e-4 0.6155809</float_array>
+          <technique_common>
+            <accessor source="#HosueExtension1Roof-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HosueExtension1Roof-mesh-map-0">
+          <float_array id="HosueExtension1Roof-mesh-map-0-array" count="48">0.3251216 0.4148902 1.29773e-4 0.4212645 0.03193479 0.00130105 0.9998703 0.4212644 0.3251216 0.4148902 0.3408468 8.70769e-4 0.9677138 0.4218855 0.9998697 0.8418223 0.6748725 0.8357203 0.6588014 0.421714 0.6748725 0.8357203 1.29491e-4 0.8426598 0.3408468 8.70769e-4 0.3251216 0.4148902 0.03193479 0.00130105 0.9995189 1.29773e-4 0.9998703 0.4212644 0.3408468 8.70769e-4 0.6588014 0.421714 0.9677138 0.4218855 0.6748725 0.8357203 1.29104e-4 0.421525 0.6588014 0.421714 1.29491e-4 0.8426598</float_array>
+          <technique_common>
+            <accessor source="#HosueExtension1Roof-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="HosueExtension1Roof-mesh-vertices">
+          <input semantic="POSITION" source="#HosueExtension1Roof-mesh-positions"/>
+        </vertices>
+        <polylist material="RoofTiles-material" count="8">
+          <input semantic="VERTEX" source="#HosueExtension1Roof-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#HosueExtension1Roof-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#HosueExtension1Roof-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 </vcount>
+          <p>8 0 0 7 0 1 1 0 2 6 1 3 8 1 4 2 1 5 4 2 6 7 2 7 8 2 8 5 3 9 8 3 10 6 3 11 2 4 12 8 4 13 1 4 14 0 5 15 6 5 16 2 5 17 5 6 18 4 6 19 8 6 20 3 7 21 5 7 22 6 7 23</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="HouseExtention1Frame_001-mesh" name="HouseExtention1Frame.001">
+      <mesh>
+        <source id="HouseExtention1Frame_001-mesh-positions">
+          <float_array id="HouseExtention1Frame_001-mesh-positions-array" count="102">0.5960787 1.799561 0.5418387 0.5954488 -0.6074184 0.5428736 0.6546483 -0.6074247 0.5693294 0.6552783 1.799554 0.5682945 0.6510542 1.799561 0.5752457 0.6504243 -0.6074184 0.5762806 0.5996729 -0.6074247 0.5359223 0.6003028 1.799554 0.5348874 -0.5960787 1.799561 0.5418387 -0.5954488 -0.6074184 0.5428736 -0.6546483 -0.6074247 0.5693294 -0.6552783 1.799554 0.5682945 -0.6510542 1.799561 0.5752457 -0.6504243 -0.6074184 0.5762806 -0.5996729 -0.6074247 0.5359223 -0.6003028 1.799554 0.5348874 0.6025123 -0.6074184 0.5324347 0.6571325 -0.6074184 0.5677376 0.6026391 -0.6184466 0.5314891 0.6572594 -0.6184466 0.5667921 -0.6025123 -0.6074184 0.5324347 0 -0.681242 1.314501 -0.6571325 -0.6074184 0.5677376 0 -0.6875631 1.397768 -0.6026391 -0.6184466 0.5314891 0 -0.6922702 1.313555 -0.6572594 -0.6184466 0.5667921 0 -0.6985913 1.396822 0.6021195 1.799561 0.5414218 0.6021188 -0.6074184 0.5426333 -0.6021195 -0.6074184 0.5426333 -0.6021193 1.799561 0.5414218 0 1.799561 1.32501 -3.16112e-7 -0.681242 1.322736</float_array>
+          <technique_common>
+            <accessor source="#HouseExtention1Frame_001-mesh-positions-array" count="34" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HouseExtention1Frame_001-mesh-normals">
+          <float_array id="HouseExtention1Frame_001-mesh-normals-array" count="126">0.5193086 -5.03357e-4 -0.8545866 -0.5193084 5.03336e-4 0.8545868 0.8545866 -4.01665e-7 0.5193089 -0.8545853 3.58087e-7 -0.519311 -0.5193091 -5.0337e-4 -0.8545864 0.5193086 5.03344e-4 0.8545866 -0.8545866 -4.01665e-7 0.5193089 0.8545886 3.8243e-7 -0.5193056 -0.02599054 0.9967942 0.07567012 0.04061293 -0.9971972 -0.06283575 0.5411686 0.07800924 -0.8372879 0.7853576 -0.05287641 0.6167799 -0.7933968 0.04293239 -0.6071888 0.04061579 0.9971968 0.06284016 -0.02598553 -0.9967942 -0.07567018 -0.5411686 0.07800924 -0.8372879 1 0 0 -0.7853576 -0.05287641 0.6167799 0.7934055 0.05199247 -0.6064689 0.7916482 5.59858e-4 -0.6109771 -0.7916482 5.60132e-4 -0.610977 0.5193091 -5.03369e-4 -0.8545864 -0.5193086 5.03344e-4 0.8545866 0.8545853 -3.92114e-7 0.519311 -0.8545886 3.82407e-7 -0.5193057 -0.5193086 -5.03357e-4 -0.8545866 0.5193084 5.03336e-4 0.8545868 -0.8545853 -3.92068e-7 0.519311 0.8545853 3.58087e-7 -0.519311 -0.04061579 0.9971969 0.0628401 0.02598553 -0.9967942 -0.07567018 0.5411686 0.07800924 -0.8372879 0.785337 -0.04391098 0.6175093 -0.7934055 0.05199247 -0.6064689 0.02599054 0.9967942 0.07567012 -0.04061293 -0.9971973 -0.06283581 -0.5411686 0.07800924 -0.8372879 1 0 0 -0.785337 -0.04390996 0.6175094 0.7933969 0.04293286 -0.6071887 0.7929373 -3.06769e-4 -0.6093031 -0.7929373 -3.06469e-4 -0.6093031</float_array>
+          <technique_common>
+            <accessor source="#HouseExtention1Frame_001-mesh-normals-array" count="42" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HouseExtention1Frame_001-mesh-map-0">
+          <float_array id="HouseExtention1Frame_001-mesh-map-0-array" count="252">0.5072527 1.133364 0.5072513 -0.5056372 0.5489084 -0.5056366 0.6177622 1.133122 0.5761057 1.133122 0.5761106 -0.5058783 0.5761057 1.133122 0.5489031 1.133364 0.5489084 -0.5056366 0.4800559 1.132953 0.4800546 -0.5060488 0.5072513 -0.5056372 0.890487 1.203202 0.8500418 1.203202 0.850047 -0.3881219 0.7831969 1.202803 0.7831957 -0.3885213 0.8236411 -0.388521 0.850047 -0.3881219 0.8500418 1.203202 0.8236362 1.202803 0.9168979 1.202968 0.890487 1.203202 0.8904858 -0.3881219 0.3025553 0.9429585 0.2535143 1.00445 0.2592251 0.004668354 0.1877252 0.9425006 0.1807794 0.01021289 0.2417751 0.004687368 0.3244074 0.2362957 0.3886176 0.2362957 0.388216 0.2472171 0.2535143 1.00445 0.2360647 1.004504 0.2417751 0.004687368 0.1714535 0.942473 0.1645085 0.01024103 0.1807794 0.01021289 0.0157001 0.951611 0.005113542 0.01938033 0.06608891 0.01367807 0.1305285 0.952068 0.08172321 1.0137 0.08353704 0.01386475 0.388216 0.2473915 0.3886176 0.258313 0.3244075 0.258313 0.324006 0.2360144 0.324006 0.1535685 0.3349336 0.1536753 0.08353704 0.01386475 0.08172321 1.0137 0.06427454 1.013473 0.1467993 0.9522092 0.1305285 0.952068 0.1444899 0.01985782 0.394854 -0.3058547 0.3948554 1.245136 -0.1910679 1.199429 0.9823306 1.198981 0.3964387 1.245136 0.395367 -0.3058535 0.5489031 1.133364 0.5072527 1.133364 0.5489084 -0.5056366 0.6177614 -0.5058781 0.6177622 1.133122 0.5761106 -0.5058783 0.5761106 -0.5058783 0.5761057 1.133122 0.5489084 -0.5056366 0.5072527 1.133364 0.4800559 1.132953 0.5072513 -0.5056372 0.8904858 -0.3881219 0.890487 1.203202 0.850047 -0.3881219 0.8236362 1.202803 0.7831969 1.202803 0.8236411 -0.388521 0.8236411 -0.388521 0.850047 -0.3881219 0.8236362 1.202803 0.9168968 -0.3883568 0.9168979 1.202968 0.8904858 -0.3881219 0.3201556 0.01083791 0.3025553 0.9429585 0.2592251 0.004668354 0.2360647 1.004504 0.1877252 0.9425006 0.2417751 0.004687368 0.324006 0.2472171 0.3244074 0.2362957 0.388216 0.2472171 0.2592251 0.004668354 0.2535143 1.00445 0.2417751 0.004687368 0.1877252 0.9425006 0.1714535 0.942473 0.1807794 0.01021289 0.06427454 1.013473 0.0157001 0.951611 0.06608891 0.01367807 0.1444899 0.01985782 0.1305285 0.952068 0.08353704 0.01386475 0.324006 0.2473915 0.388216 0.2473915 0.3244075 0.258313 0.3349336 0.2361212 0.324006 0.2360144 0.3349336 0.1536753 0.06608891 0.01367807 0.08353704 0.01386475 0.06427454 1.013473 0.1607609 0.02002793 0.1467993 0.9522092 0.1444899 0.01985782 -0.1926794 -0.3054053 0.394854 -0.3058547 -0.1910679 1.199429 0.9829006 -0.305854 0.9823306 1.198981 0.395367 -0.3058535</float_array>
+          <technique_common>
+            <accessor source="#HouseExtention1Frame_001-mesh-map-0-array" count="126" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="HouseExtention1Frame_001-mesh-vertices">
+          <input semantic="POSITION" source="#HouseExtention1Frame_001-mesh-positions"/>
+        </vertices>
+        <polylist material="Wood-material" count="42">
+          <input semantic="VERTEX" source="#HouseExtention1Frame_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#HouseExtention1Frame_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#HouseExtention1Frame_001-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>6 0 0 7 0 1 3 0 2 1 1 3 5 1 4 4 1 5 5 2 6 2 2 7 3 2 8 1 3 9 0 3 10 7 3 11 14 4 12 10 4 13 11 4 14 9 5 15 8 5 16 12 5 17 11 6 18 10 6 19 13 6 20 9 7 21 14 7 22 15 7 23 21 8 24 23 8 25 17 8 26 25 9 27 18 9 28 19 9 29 16 10 30 17 10 31 19 10 32 23 11 33 27 11 34 19 11 35 21 12 36 16 12 37 18 12 38 21 13 39 20 13 40 22 13 41 25 14 42 27 14 43 26 14 44 20 15 45 24 15 46 26 15 47 27 16 48 25 16 49 21 16 50 26 17 51 27 17 52 23 17 53 21 18 54 25 18 55 24 18 56 32 19 57 33 19 58 30 19 59 29 20 60 33 20 61 32 20 62 2 21 63 6 21 64 3 21 65 0 22 66 1 22 67 4 22 68 4 23 69 5 23 70 3 23 71 6 24 72 1 24 73 7 24 74 15 25 75 14 25 76 11 25 77 13 26 78 9 26 79 12 26 80 12 27 81 11 27 82 13 27 83 8 28 84 9 28 85 15 28 86 16 29 87 21 29 88 17 29 89 27 30 90 25 30 91 19 30 92 18 31 93 16 31 94 19 31 95 17 32 96 23 32 97 19 32 98 25 33 99 21 33 100 18 33 101 23 34 102 21 34 103 22 34 104 24 35 105 25 35 106 26 35 107 22 36 108 20 36 109 26 36 110 23 37 111 27 37 112 21 37 113 22 38 114 26 38 115 23 38 116 20 39 117 21 39 118 24 39 119 31 40 120 32 40 121 30 40 122 28 41 123 29 41 124 32 41 125</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_001-mesh" name="Cube.001">
+      <mesh>
+        <source id="Cube_001-mesh-positions">
+          <float_array id="Cube_001-mesh-positions-array" count="144">0.5727814 0.003425896 -0.03263765 0.507506 0.003425896 -0.03263765 0.5075053 2.314182 -0.03263765 0.5727807 2.314182 -0.03263765 0.5727814 0.003425896 0.03263765 0.507506 0.003425896 0.03263765 0.5075053 2.314182 0.03263765 0.5727807 2.314182 0.03263765 -0.5727814 0.003425896 -0.03263765 -0.507506 0.003425896 -0.03263765 -0.5075053 2.314182 -0.03263765 -0.5727807 2.314182 -0.03263765 -0.5727814 0.003425896 0.03263765 -0.507506 0.003425896 0.03263765 -0.5075053 2.314182 0.03263765 -0.5727807 2.314182 0.03263765 -0.5379322 -0.03263765 0.8008329 -0.5379322 0.03263765 0.8008329 0.5379322 0.03263765 0.8008329 0.5379322 -0.03263765 0.8008329 -0.4764348 -0.03263765 0.8661082 -0.4764348 0.03263765 0.8661082 0.4764348 0.03263765 0.8661082 0.4764348 -0.03263765 0.8661082 -0.5700637 -0.03263765 -0.03263765 -0.5700637 0.03263765 -0.03263765 0.5700637 0.03263765 -0.03263765 0.5700637 -0.03263765 -0.03263765 -0.5700637 -0.03263765 0.03263765 -0.5700637 0.03263765 0.03263765 0.5700637 0.03263765 0.03263765 0.5700637 -0.03263765 0.03263765 0.5024781 -0.04679524 -0.3930864 0.5024781 0.03304517 -0.3930864 0.5823185 0.03304517 -0.3930864 0.5823185 -0.04679524 -0.3930864 0.5024781 -0.04679524 0.8166821 0.5024781 0.03304517 0.8166821 0.5823185 0.03304517 0.7217937 0.5823185 -0.04679524 0.7217937 -0.5024781 -0.04679524 -0.3930864 -0.5024781 0.03304517 -0.3930864 -0.5823185 0.03304517 -0.3930864 -0.5823185 -0.04679524 -0.3930864 -0.5024781 -0.04679524 0.8166821 -0.5024781 0.03304517 0.8166821 -0.5823185 0.03304517 0.7217937 -0.5823185 -0.04679524 0.7217937</float_array>
+          <technique_common>
+            <accessor source="#Cube_001-mesh-positions-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_001-mesh-normals">
+          <float_array id="Cube_001-mesh-normals-array" count="120">1 3.09533e-7 0 0 0 -1 0 0 1 -1 3.09533e-7 0 0 0 -1 0 0 1 0 -1 0 0 0 -1 0 0 1 0 -1 0 0 0 -1 0 0 1 -1 0 0 0 1 0 1 0 0 0 -1 0 1 0 0 0 1 0 -1 0 0 0 -1 0 1 3.09533e-7 0 0 0 -1 0 0 1 -1 3.09533e-7 0 0 0 -1 0 0 1 0 -1 0 0 0 -1 0 0 1 0 -1 0 0 0 -1 0 0 1 -1 0 0 0 1 0 1 0 0 0 -1 0 1 0 0 0 1 0 -1 0 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#Cube_001-mesh-normals-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_001-mesh-map-0">
+          <float_array id="Cube_001-mesh-map-0-array" count="240">0.6292307 -0.458613 0.6292321 0.983416 0.5904942 0.983416 0.5904942 0.983416 0.5517562 0.983416 0.5517544 -0.4586127 0.6292307 -0.458613 0.6679686 -0.4586131 0.6679703 0.983416 0.3978646 -0.4308302 0.4358897 -0.4308165 0.4354359 0.9846735 0.4354359 0.9846735 0.4358897 -0.4308165 0.4739148 -0.4308031 0.3978646 -0.4308302 0.3974106 0.98466 0.3593855 0.9846466 0.3145866 -0.1373846 0.3145856 1.081125 0.2352051 1.159767 0.2352051 1.159767 0.1558248 1.159767 0.1558259 -0.2160261 0.3145866 -0.1373846 0.3939668 -0.1373847 0.3939679 1.081125 0.4687255 -0.5084906 0.4687252 0.9483274 0.3894078 0.9483274 0.3894078 0.9483274 0.3100902 0.9483276 0.3100889 -0.5084906 0.4687255 -0.5084906 0.5480429 -0.5084906 0.5480436 0.9483273 0.4644168 1.067381 0.3892025 1.067381 0.3892025 -0.07228916 0.6148453 0.9779912 0.6148451 -0.07228899 0.6900592 -0.07228899 0.6148453 0.9779912 0.5396311 0.9779912 0.539631 -0.07228899 0.5396311 0.9779912 0.4644168 1.067381 0.4644168 -0.0722891 0.08163917 1.078926 0.08163923 -0.0607444 0.006424903 -0.06074446 0.3072816 -0.06074428 0.2320675 -0.06074428 0.2320677 0.9895359 0.2320677 0.9895359 0.2320675 -0.06074428 0.1568534 -0.06074428 0.1568534 0.9895359 0.1568534 -0.06074428 0.08163923 -0.0607444 0.5904925 -0.4586126 0.6292307 -0.458613 0.5904942 0.983416 0.5904925 -0.4586126 0.5904942 0.983416 0.5517544 -0.4586127 0.6292321 0.983416 0.6292307 -0.458613 0.6679703 0.983416 0.3974106 0.98466 0.3978646 -0.4308302 0.4354359 0.9846735 0.4734612 0.984687 0.4354359 0.9846735 0.4739148 -0.4308031 0.3598393 -0.4308441 0.3978646 -0.4308302 0.3593855 0.9846466 0.2352064 -0.2160258 0.3145866 -0.1373846 0.2352051 1.159767 0.2352064 -0.2160258 0.2352051 1.159767 0.1558259 -0.2160261 0.3145856 1.081125 0.3145866 -0.1373846 0.3939679 1.081125 0.3894072 -0.5084906 0.4687255 -0.5084906 0.3894078 0.9483274 0.3894072 -0.5084906 0.3894078 0.9483274 0.3100889 -0.5084906 0.4687252 0.9483274 0.4687255 -0.5084906 0.5480436 0.9483273 0.4644168 -0.0722891 0.4644168 1.067381 0.3892025 -0.07228916 0.6900596 1.067381 0.6148453 0.9779912 0.6900592 -0.07228899 0.6148451 -0.07228899 0.6148453 0.9779912 0.539631 -0.07228899 0.539631 -0.07228899 0.5396311 0.9779912 0.4644168 -0.0722891 0.006424903 1.078926 0.08163917 1.078926 0.006424903 -0.06074446 0.307282 1.078926 0.3072816 -0.06074428 0.2320677 0.9895359 0.1568534 0.9895359 0.2320677 0.9895359 0.1568534 -0.06074428 0.08163917 1.078926 0.1568534 0.9895359 0.08163923 -0.0607444</float_array>
+          <technique_common>
+            <accessor source="#Cube_001-mesh-map-0-array" count="120" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_001-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_001-mesh-positions"/>
+        </vertices>
+        <polylist material="Wood-material" count="40">
+          <input semantic="VERTEX" source="#Cube_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_001-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>7 0 0 4 0 1 0 0 2 0 1 3 1 1 4 2 1 5 7 2 6 6 2 7 5 2 8 15 3 9 11 3 10 8 3 11 8 4 12 11 4 13 10 4 14 15 5 15 12 5 16 13 5 17 23 6 18 20 6 19 16 6 20 16 7 21 17 7 22 18 7 23 23 8 24 22 8 25 21 8 26 31 9 27 28 9 28 24 9 29 24 10 30 25 10 31 26 10 32 31 11 33 30 11 34 29 11 35 36 12 36 37 12 37 33 12 38 38 13 39 34 13 40 33 13 41 38 14 42 39 14 43 35 14 44 39 15 45 36 15 46 32 15 47 44 16 48 40 16 49 41 16 50 41 17 51 42 17 52 46 17 53 46 18 54 42 18 55 43 18 56 47 19 57 43 19 58 40 19 59 3 20 60 7 20 61 0 20 62 3 21 63 0 21 64 2 21 65 4 22 66 7 22 67 5 22 68 12 23 69 15 23 70 8 23 71 9 24 72 8 24 73 10 24 74 14 25 75 15 25 76 13 25 77 19 26 78 23 26 79 16 26 80 19 27 81 16 27 82 18 27 83 20 28 84 23 28 85 21 28 86 27 29 87 31 29 88 24 29 89 27 30 90 24 30 91 26 30 92 28 31 93 31 31 94 29 31 95 32 32 96 36 32 97 33 32 98 37 33 99 38 33 100 33 33 101 34 34 102 38 34 103 35 34 104 35 35 105 39 35 106 32 35 107 45 36 108 44 36 109 41 36 110 45 37 111 41 37 112 46 37 113 47 38 114 46 38 115 43 38 116 44 39 117 47 39 118 40 39 119</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="BuildingExtensions1" name="BuildingExtensions1" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#HouseExtension1-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Plaster-material" target="#Plaster-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="BuildingExtensions1Roof" name="BuildingExtensions1Roof" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#HosueExtension1Roof-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="RoofTiles-material" target="#RoofTiles-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="BuildingExtensions1RoofFrame" name="BuildingExtensions1RoofFrame" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#HouseExtention1Frame_001-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Wood-material" target="#Wood-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="BuildingExtensions1Beams" name="BuildingExtensions1Beams" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 -0.5395709 0 0 1 -0.1190672 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_001-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Wood-material" target="#Wood-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
