@@ -12,7 +12,7 @@ If you simply want to play FreeRPG or even use it as a base for your own RPG the
 
 ```git clone git@gitlab.com:FreeRPG/FreeRPG-Torque3D.git```
 
-Once that has finished copy the `FreeRPG` Template from the ```FreeRPG-Torque3D/Templates``` folder
+Once that has finished copy the `FreeRPG` Template from the ```FreeRPG-Torque3D/Templates``` folder to the ```FreeRPG-Torque3D/My Projects``` folder
 
 Then navigate to the ```FreeRPG-Torque3D/My Projects/FreeRPG``` folder and run the file that is named ```generateProjects.bat```. 
 
