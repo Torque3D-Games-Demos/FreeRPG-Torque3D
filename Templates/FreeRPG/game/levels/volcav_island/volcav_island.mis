@@ -575,7 +575,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "344.179 300.285 54.9917";
-            rotation = "-0.281428 -0.760579 -0.58508 94.4559";
+            rotation = "-0.281428 -0.760579 -0.58508 94.456";
             scale = "3.25814 3.10738 3.28694";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -595,7 +595,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "202.832 267.654 57.317";
-            rotation = "-0.663668 0.590954 0.458604 98.9261";
+            rotation = "-0.663668 0.590954 0.458604 98.926";
             scale = "1.92574 2.13498 2.05708";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -695,7 +695,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "325.811 324.369 57.2162";
-            rotation = "0.99998 -0.00431351 -0.00471964 95.1505";
+            rotation = "0.99998 -0.00431351 -0.00471964 95.1506";
             scale = "3.41375 5.49002 2.56958";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -1745,7 +1745,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "340.184 265.149 73.693";
-            rotation = "0.177594 -0.210175 0.961398 92.2458";
+            rotation = "0.177594 -0.210175 0.961398 92.2457";
             scale = "1.86004 1.86004 1.86004";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -1830,7 +1830,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "348.872 248.665 60.7479";
-            rotation = "-0.983399 0.158091 0.0890761 89.0494";
+            rotation = "-0.983399 0.158091 0.0890761 89.0495";
             scale = "3.15901 3.02691 3.20421";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -2684,6 +2684,34 @@ new SimGroup(MissionGroup) {
       turbulenceStrength = "0.25";
       turbulenceFrequency = "2";
       hasMount = "0";
+   };
+   new Prefab() {
+      fileName = "art/prefabs/doublethickdoor.prefab";
+      position = "253.713 273.067 56.6123";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new TSStatic() {
+      shapeName = "art/shapes/OGA/mineassetexport/ore1.dae";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      allowPlayerStep = "0";
+      alphaFadeEnable = "0";
+      alphaFadeStart = "100";
+      alphaFadeEnd = "150";
+      alphaFadeInverse = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "249.438 264.001 72.3436";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
    };
 };
 //--- OBJECT WRITE END ---
