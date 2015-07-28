@@ -188,3 +188,4 @@ Qt*.dll
 ## FreeRPG
 #############
 .gitignore~
+Templates/FreeRPG/buildFiles/Link
