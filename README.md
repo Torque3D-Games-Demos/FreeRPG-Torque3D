@@ -10,16 +10,16 @@ The FreeRPG Project is an idea to create a totally open-source and free RPG from
 
 If you simply want to play FreeRPG or even use it as a base for your own RPG then first you need to clone this repo with the command below:
 
-```git clone git@gitlab.com:hreikin/FreeRPG-Project.git```
+```git clone git@gitlab.com:FreeRPG/FreeRPG-Torque3D.git```
 
-Then navigate to the ```FreeRPG-Project/My Projects/FreeRPG``` folder and run the file that is named ```generateProjects.bat```. 
+Once that has finished copy the `FreeRPG` Template from the ```FreeRPG-Torque3D/Templates``` folder
+
+Then navigate to the ```FreeRPG-Torque3D/My Projects/FreeRPG``` folder and run the file that is named ```generateProjects.bat```. 
 
 After that has finished navigate to the ```FreeRPG-Project/My Projects/FreeRPG/buildFiles/VisualStudio 2012``` folder then open the file named ```FreeRPG.sln``` and build your project in Visual Studio.
  
 You should now have a ```FreeRPG.exe``` file in your ```FreeRPG-Project/My Projects/FreeRPG/game``` folder which you can use to run the FreeRPG Project.
 
-If you would like to use FreeRPG to create your own RPG from scratch then check the [FreeRPG Wiki](https://gitlab.com/hreikin/FreeRPG-Project/wikis/home) for guides on how to compile the engine in either Windows or Linux.
- 
 #### Contribution ####
 Please note that FreeRPG is still in the very early stages of development, DO NOT expect much, nothing is finished (or started in most cases) and if you would like to help contribute to the FreeRPG Project then please use the [Contact Form](http://hreikin.wix.com/freerpg) available at the bottom of the homepage. If you prefer to get your hands dirty then fork the project and create your own branch for your development work, then make a pull request when ready.
 
