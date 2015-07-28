@@ -1,8 +1,35 @@
-# Torque 3D
+### FreeRPG Project ###
+
+The FreeRPG Project is an idea to create a totally open-source and free RPG from assets to game engine, FreeRPG uses the Torque3D MIT engine. The project has only just started and it is literally just stock Torque3D at the moment with some open-source assets available but the plan is to create a base RPG which users can then either "mod" or use to create their own FreeRPG. For more info check out the links below:
+
+[FreeRPG Project Website](http://hreikin.wix.com/freerpg)
+
+[FreeRPG Project Trello](https://trello.com/b/2BrEPQ2C/freerpg-project-planning)
+
+#### How do I get set up? ####
+
+If you simply want to play FreeRPG or even use it as a base for your own RPG then first you need to clone this repo with the command below:
+
+```git clone git@gitlab.com:hreikin/FreeRPG-Project.git```
+
+Then navigate to the ```FreeRPG-Project/My Projects/FreeRPG``` folder and run the file that is named ```generateProjects.bat```. 
+
+After that has finished navigate to the ```FreeRPG-Project/My Projects/FreeRPG/buildFiles/VisualStudio 2012``` folder then open the file named ```FreeRPG.sln``` and build your project in Visual Studio.
+ 
+You should now have a ```FreeRPG.exe``` file in your ```FreeRPG-Project/My Projects/FreeRPG/game``` folder which you can use to run the FreeRPG Project.
+
+If you would like to use FreeRPG to create your own RPG from scratch then check the [FreeRPG Wiki](https://gitlab.com/hreikin/FreeRPG-Project/wikis/home) for guides on how to compile the engine in either Windows or Linux.
+ 
+#### Contribution ####
+Please note that FreeRPG is still in the very early stages of development, DO NOT expect much, nothing is finished (or started in most cases) and if you would like to help contribute to the FreeRPG Project then please use the [Contact Form](http://hreikin.wix.com/freerpg) available at the bottom of the homepage. If you prefer to get your hands dirty then fork the project and create your own branch for your development work, then make a pull request when ready.
+
+Please check out the [FreeRPG Contribution Guidelines](https://gitlab.com/hreikin/FreeRPG-Project/blob/development/CONTRIBUTING.md) as well as the [Torque3D Contribution Guidelines](https://gitlab.com/hreikin/FreeRPG-Project/blob/development/TORQUE3D_CONTRIBUTING.md) for more information.
+
+### Torque 3D ###
 
 MIT Licensed Open Source version of [Torque 3D](http://torque3d.org) from [GarageGames](http://www.garagegames.com)
 
-## More Information
+#### More Information ####
 
 * [Homepage](http://torque3d.org)
 * [Torque 3D wiki](http://wiki.torque3d.org)
@@ -10,18 +37,18 @@ MIT Licensed Open Source version of [Torque 3D](http://torque3d.org) from [Garag
 * [GarageGames forum](http://www.garagegames.com/community/forums)
 * [GarageGames professional services](http://services.garagegames.com/)
 
-## Pre-compiled Version
+#### Pre-compiled Version ####
 
 In addition to GitHub we also have a couple of pre-packaged files for you to download if you would prefer to not compile the code yourself.
 They are available from the [downloads](http://wiki.torque3d.org/main:downloads) page on the wiki.
 
-## Related repositories
+#### Related repositories ####
 
 * [Torque 3D main repository](https://github.com/GarageGames/Torque3D) (you are here!)
 * [Project Manager repository](https://github.com/GarageGames/Torque3D-ProjectManager)
 * [Offline documentation repository](https://github.com/GarageGames/Torque3D-Documentation)
 
-# License
+#### License ####
 
     Copyright (c) 2012 GarageGames, LLC
 
