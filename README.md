@@ -16,14 +16,12 @@ Once that has finished copy the `FreeRPG` Template from the ```FreeRPG-Torque3D/
 
 Then navigate to the ```FreeRPG-Torque3D/My Projects/FreeRPG``` folder and run the file that is named ```generateProjects.bat```. 
 
-After that has finished navigate to the ```FreeRPG-Project/My Projects/FreeRPG/buildFiles/VisualStudio 2012``` folder then open the file named ```FreeRPG.sln``` and build your project in Visual Studio.
+After that has finished navigate to the ```FreeRPG-Torque3D/My Projects/FreeRPG/buildFiles/VisualStudio 2012``` folder then open the file named ```FreeRPG.sln``` and build your project in Visual Studio.
  
-You should now have a ```FreeRPG.exe``` file in your ```FreeRPG-Project/My Projects/FreeRPG/game``` folder which you can use to run the FreeRPG Project.
+You should now have a ```FreeRPG.exe``` file in your ```FreeRPG-Torque3D/My Projects/FreeRPG/game``` folder which you can use to run the FreeRPG Project.
 
 #### Contribution ####
 Please note that FreeRPG is still in the very early stages of development, DO NOT expect much, nothing is finished (or started in most cases) and if you would like to help contribute to the FreeRPG Project then please use the [Contact Form](http://hreikin.wix.com/freerpg) available at the bottom of the homepage. If you prefer to get your hands dirty then fork the project and create your own branch for your development work, then make a pull request when ready.
-
-Please check out the [FreeRPG Contribution Guidelines](https://gitlab.com/hreikin/FreeRPG-Project/blob/development/CONTRIBUTING.md) as well as the [Torque3D Contribution Guidelines](https://gitlab.com/hreikin/FreeRPG-Project/blob/development/TORQUE3D_CONTRIBUTING.md) for more information.
 
 ### Torque 3D ###
 
