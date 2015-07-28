@@ -10,6 +10,7 @@ new SimGroup(MissionGroup) {
    new LevelInfo(theLevelInfo) {
       nearClip = "0.1";
       visibleDistance = "5000";
+      visibleGhostDistance = "0";
       decalBias = "0.0015";
       fogColor = "0.6 0.6 0.7 1";
       fogDensity = "0";
@@ -23,9 +24,9 @@ new SimGroup(MissionGroup) {
       soundDistanceModel = "Linear";
       canSave = "1";
       canSaveDynamicFields = "1";
-         desc0 = "Racing example map";
+         desc0 = "A Fishing Island";
          enabled = "1";
-         levelName = "Racing Island";
+         levelName = "Ko Iron";
    };
    new SimGroup(PlayerDropPoints) {
       canSave = "1";
@@ -110,6 +111,7 @@ new SimGroup(MissionGroup) {
       castShadows = "1";
       squareSize = "1";
       baseTexSize = "1024";
+      baseTexFormat = "JPG";
       lightMapSize = "256";
       screenError = "16";
       position = "-512 -512 0";
@@ -127,6 +129,7 @@ new SimGroup(MissionGroup) {
       ambientScale = "0.388235 0.321569 0.192157 1";
       fogScale = "1 1 1 1";
       exposure = "1";
+      zOffset = "0";
       azimuth = "240";
       elevation = "35";
       moonAzimuth = "0";

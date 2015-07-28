@@ -186,3 +186,20 @@ singleton Material(Blacksmith1Upload_OakBark)
    specularPower[0] = "50";
    translucentBlendOp = "None";
 };
+
+singleton Material(Blacksmith1Upload_Coal)
+{
+   mapTo = "Coal";
+   diffuseMap[0] = "Lava";
+   specular[0] = "0.173611 0.173611 0.173611 1";
+   specularPower[0] = "128";
+   translucentBlendOp = "None";
+};
+
+singleton Material(Blacksmith1Upload_ChoppedWood)
+{
+   mapTo = "ChoppedWood";
+   diffuseColor[3] = "White";
+   diffuseMap[0] = "ChoppedWood";
+   translucentBlendOp = "None";
+};

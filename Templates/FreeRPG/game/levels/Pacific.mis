@@ -571,7 +571,9 @@ new SimGroup(MissionGroup) {
          canSave = "1";
          canSaveDynamicFields = "1";
             cameraSpeed = "5 200";
-            desc0 = "A Pacific Island.";
+            desc0 = "A Tropical Island";
+            enabled = "1";
+            levelName = "Ulanti";
             worldSize = "10000";
       };
       new TerrainBlock(PacificIsland) {
@@ -3713,7 +3715,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "-213.894 793.06 88.1228";
-            rotation = "0.0239963 -0.0210442 0.999491 97.5425";
+            rotation = "0.0239963 -0.0210442 0.999491 97.5429";
             scale = "2.5042 2.5042 2.83027";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -3873,7 +3875,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "-214.181 793.06 91.288";
-            rotation = "0.0239963 -0.0210442 0.999491 97.5424";
+            rotation = "0.0239963 -0.0210442 0.999491 97.5428";
             scale = "2.5042 2.5042 2.83027";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -5601,7 +5603,7 @@ new SimGroup(MissionGroup) {
                shadowDarkenColor = "0 0 0 -1";
                includeLightmappedGeometryInShadow = "0";
                position = "-253.732 822.797 70.0888";
-               rotation = "-0.0808602 -0.0231153 0.996457 89.3525";
+               rotation = "-0.0808602 -0.0231153 0.996457 89.3521";
                canSave = "1";
                canSaveDynamicFields = "1";
             };
@@ -5620,7 +5622,7 @@ new SimGroup(MissionGroup) {
                renderNormals = "0";
                forceDetail = "-1";
                position = "-253.561 823.104 67.1322";
-               rotation = "-0.0808602 -0.0231153 0.996457 89.3525";
+               rotation = "-0.0808602 -0.0231153 0.996457 89.3521";
                scale = "1.60386 1.60386 1.60386";
                canSave = "1";
                canSaveDynamicFields = "1";
@@ -6455,7 +6457,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "-258.867 755.505 57.4261";
-            rotation = "0.812576 0.43723 0.385421 93.7063";
+            rotation = "0.812576 0.43723 0.385421 93.7059";
             scale = "5.49789 5.49789 5.49789";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -9657,6 +9659,26 @@ new SimGroup(MissionGroup) {
          canSave = "1";
          canSaveDynamicFields = "1";
       };
+   };
+   new TSStatic() {
+      shapeName = "art/shapes/OGA/ship/ship.dae";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      allowPlayerStep = "0";
+      alphaFadeEnable = "0";
+      alphaFadeStart = "100";
+      alphaFadeEnd = "150";
+      alphaFadeInverse = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-439.293 585.871 59.6423";
+      rotation = "0 0 1 68.0279";
+      scale = "0.8 0.8 0.8";
+      canSave = "1";
+      canSaveDynamicFields = "1";
    };
 };
 //--- OBJECT WRITE END ---

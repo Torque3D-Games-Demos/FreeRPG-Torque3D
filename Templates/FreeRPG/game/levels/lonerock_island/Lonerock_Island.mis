@@ -21,9 +21,9 @@ new SimGroup(MissionGroup) {
       soundDistanceModel = "Linear";
       canSave = "1";
       canSaveDynamicFields = "1";
-         desc0 = "A lonely rocky island";
+         desc0 = "A Rocky Island";
          enabled = "1";
-         levelName = "Lonerock Island";
+         levelName = "Ran Lo";
    };
    new SimGroup(PlayerDropPoints) {
       canSave = "1";
@@ -2230,7 +2230,7 @@ new SimGroup(MissionGroup) {
       canSave = "1";
       canSaveDynamicFields = "1";
    };
-   new SimGroup(Buildings) {
+   new SimGroup(buildings) {
       canSave = "1";
       canSaveDynamicFields = "1";
 
@@ -2782,7 +2782,7 @@ new SimGroup(MissionGroup) {
          renderNormals = "0";
          forceDetail = "-1";
          position = "-51.7458 -211.755 116.584";
-         rotation = "0.0754566 -0.0849205 -0.993527 95.9932";
+         rotation = "0.0754566 -0.0849205 -0.993526 95.9933";
          scale = "1 1 1";
          canSave = "1";
          canSaveDynamicFields = "1";
