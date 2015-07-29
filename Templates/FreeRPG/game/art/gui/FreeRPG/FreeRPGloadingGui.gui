@@ -49,23 +49,6 @@
       canSave = "1";
       canSaveDynamicFields = "0";
 
-      new GuiBitmapCtrl(LoadingLogo) {
-         bitmap = "art/gui/Torque-3D-logo_alt.png";
-         wrap = "0";
-         position = "27 6";
-         extent = "443 139";
-         minExtent = "8 2";
-         horizSizing = "center";
-         vertSizing = "bottom";
-         profile = "GuiDefaultProfile";
-         visible = "1";
-         active = "1";
-         tooltipProfile = "GuiToolTipProfile";
-         hovertime = "1000";
-         isContainer = "0";
-         canSave = "1";
-         canSaveDynamicFields = "0";
-      };
       new GuiProgressBitmapCtrl(LoadingProgress) {
          maxLength = "1024";
          margin = "0 0 0 0";
@@ -111,6 +94,23 @@
          canSave = "1";
          canSaveDynamicFields = "0";
       };
+   };
+   new GuiBitmapCtrl(LoadingLogo) {
+      bitmap = "art/gui/FreeRPG/FreeRPG-Logo.png";
+      wrap = "0";
+      position = "412 228";
+      extent = "200 200";
+      minExtent = "8 2";
+      horizSizing = "center";
+      vertSizing = "bottom";
+      profile = "GuiDefaultProfile";
+      visible = "1";
+      active = "1";
+      tooltipProfile = "GuiToolTipProfile";
+      hovertime = "1000";
+      isContainer = "0";
+      canSave = "1";
+      canSaveDynamicFields = "0";
    };
 };
 //--- OBJECT WRITE END ---
