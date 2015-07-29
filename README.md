@@ -8,9 +8,17 @@ The FreeRPG Project is an idea to create a totally open-source and free RPG from
 
 [FreeRPG Release Repo](https://gitlab.com/FreeRPG/FreeRPG)
 
-#### How do I get set up? ####
+#### Just want the game ? ####
 
-If you simply want to play FreeRPG or even use it as a base for your own RPG then first you need to clone this repo with the command below:
+If you simply want to play FreeRPG then all you need to do is clone the [FreeRPG Release Repo](https://gitlab.com/FreeRPG/FreeRPG) with the command below:
+
+```git clone git@gitlab.com:FreeRPG/FreeRPG.git```
+
+You should now have a ```FreeRPG.exe``` file in your newly cloned repo folder which you can use to run the FreeRPG Project.
+
+#### Compile from source ####
+
+If you would like to compile the engine/game from source to either contribute or to create your own RPG then clone this repo with the below command:
 
 ```git clone git@gitlab.com:FreeRPG/FreeRPG-Torque3D.git```
 
@@ -44,7 +52,7 @@ They are available from the [downloads](http://wiki.torque3d.org/main:downloads)
 
 #### Related repositories ####
 
-* [Torque 3D main repository](https://github.com/GarageGames/Torque3D) (you are here!)
+* [Torque 3D main repository](https://github.com/GarageGames/Torque3D)
 * [Project Manager repository](https://github.com/GarageGames/Torque3D-ProjectManager)
 * [Offline documentation repository](https://github.com/GarageGames/Torque3D-Documentation)
 
