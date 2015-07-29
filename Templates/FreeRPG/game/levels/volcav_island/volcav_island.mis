@@ -39,7 +39,7 @@ new SimGroup(MissionGroup) {
          outdoorWeight = "1";
          isAIControlled = "0";
          dataBlock = "SpawnSphereMarker";
-         position = "308.072 178.708 48.5791";
+         position = "251.177 371.772 51.8774";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          canSave = "1";
@@ -575,7 +575,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "344.179 300.285 54.9917";
-            rotation = "-0.281428 -0.760579 -0.58508 94.4562";
+            rotation = "-0.281428 -0.760579 -0.58508 94.4563";
             scale = "3.25814 3.10738 3.28694";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -695,7 +695,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "325.811 324.369 57.2162";
-            rotation = "0.99998 -0.00431351 -0.00471964 95.1508";
+            rotation = "0.99998 -0.00431351 -0.00471964 95.1509";
             scale = "3.41375 5.49002 2.56958";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -1745,7 +1745,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "340.184 265.149 73.693";
-            rotation = "0.177594 -0.210175 0.961398 92.2455";
+            rotation = "0.177594 -0.210175 0.961398 92.2454";
             scale = "1.86004 1.86004 1.86004";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -1830,7 +1830,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "348.872 248.665 60.7479";
-            rotation = "-0.983399 0.158091 0.0890761 89.0497";
+            rotation = "-0.983399 0.158091 0.0890761 89.0498";
             scale = "3.15901 3.02691 3.20421";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -2689,9 +2689,69 @@ new SimGroup(MissionGroup) {
       canSave = "1";
       canSaveDynamicFields = "1";
 
+      new TSStatic() {
+         shapeName = "art/shapes/staticProps/OldWagon/OldWagon.DAE";
+         playAmbient = "1";
+         meshCulling = "0";
+         originSort = "0";
+         collisionType = "Visible Mesh";
+         decalType = "Collision Mesh";
+         allowPlayerStep = "0";
+         alphaFadeEnable = "0";
+         alphaFadeStart = "100";
+         alphaFadeEnd = "150";
+         alphaFadeInverse = "0";
+         renderNormals = "0";
+         forceDetail = "-1";
+         position = "325.762 302.856 50.1572";
+         rotation = "0 0 -1 97.5185";
+         scale = "1 1 1";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
       new Prefab() {
-         fileName = "art/prefabs/doublethickdoor.prefab";
-         position = "253.713 273.067 56.6123";
+         fileName = "art/prefabs/cratebarrelmix.prefab";
+         position = "328.459 306.268 50.1841";
+         rotation = "-0.0214108 0.0190414 0.999589 96.7277";
+         scale = "1 1 1";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
+      new Prefab() {
+         fileName = "art/prefabs/cratebarrelmix2.prefab";
+         position = "330.766 304.749 50.1794";
+         rotation = "-0.686123 0.727156 -0.0218888 5.02403";
+         scale = "1 1 1";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
+      new Prefab() {
+         fileName = "art/prefabs/3grainbags.prefab";
+         position = "330.016 306.132 50.1937";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
+      new Prefab() {
+         fileName = "art/prefabs/cratebarrelmix1.prefab";
+         position = "328.808 304.139 50.0357";
+         rotation = "-0.610102 0.792279 0.00833549 4.4271";
+         scale = "1 1 1";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
+      new Prefab() {
+         fileName = "art/prefabs/4barrels.prefab";
+         position = "266.844 262.627 58.396";
+         rotation = "0 0 1 175.108";
+         scale = "1 1 1";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
+      new Prefab() {
+         fileName = "art/prefabs/3crates2barrels.prefab";
+         position = "266.758 260.665 58.2516";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          canSave = "1";
@@ -2702,6 +2762,46 @@ new SimGroup(MissionGroup) {
       canSave = "1";
       canSaveDynamicFields = "1";
 
+      new TSStatic() {
+         shapeName = "art/shapes/structures/coveredstructure/coveredstructure.DAE";
+         playAmbient = "1";
+         meshCulling = "0";
+         originSort = "0";
+         collisionType = "Visible Mesh";
+         decalType = "Collision Mesh";
+         allowPlayerStep = "0";
+         alphaFadeEnable = "0";
+         alphaFadeStart = "100";
+         alphaFadeEnd = "150";
+         alphaFadeInverse = "0";
+         renderNormals = "0";
+         forceDetail = "-1";
+         position = "248.138 366.01 51.1274";
+         rotation = "0 0 1 127.379";
+         scale = "1 1 1";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
+      new TSStatic() {
+         shapeName = "art/shapes/blendswap/Pup Tent.dae";
+         playAmbient = "1";
+         meshCulling = "0";
+         originSort = "0";
+         collisionType = "Visible Mesh";
+         decalType = "Collision Mesh";
+         allowPlayerStep = "0";
+         alphaFadeEnable = "0";
+         alphaFadeStart = "100";
+         alphaFadeEnd = "150";
+         alphaFadeInverse = "0";
+         renderNormals = "0";
+         forceDetail = "-1";
+         position = "256.509 382.618 50.8381";
+         rotation = "0 0 -1 84.7201";
+         scale = "0.25 0.25 0.25";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
       new Prefab() {
          fileName = "art/prefabs/4barrels.prefab";
          position = "289.785 423.152 47.7074";
@@ -2872,40 +2972,40 @@ new SimGroup(MissionGroup) {
       };
       new Prefab() {
          fileName = "art/prefabs/3rectanglecrates.prefab";
-         position = "251.157 381.587 51.1277";
-         rotation = "1 0 0 0";
+         position = "250.787 366.357 51.1277";
+         rotation = "0 0 1 118.512";
          scale = "1 1 1";
          canSave = "1";
          canSaveDynamicFields = "1";
       };
       new Prefab() {
          fileName = "art/prefabs/4barrels.prefab";
-         position = "252.749 382.638 51.3491";
-         rotation = "0 0 1 29.3469";
+         position = "250.951 364.456 51.3491";
+         rotation = "0 0 1 147.859";
          scale = "1 1 1";
          canSave = "1";
          canSaveDynamicFields = "1";
       };
       new Prefab() {
          fileName = "art/prefabs/cratebarrelmix2.prefab";
-         position = "252.963 380.52 51.1292";
-         rotation = "1 0 0 0";
+         position = "248.988 365.279 51.1292";
+         rotation = "0 0 1 118.512";
          scale = "1 1 1";
          canSave = "1";
          canSaveDynamicFields = "1";
       };
       new Prefab() {
          fileName = "art/prefabs/3crates2barrels.prefab";
-         position = "254.792 381.677 51.1586";
-         rotation = "1 0 0 0";
+         position = "249.131 363.119 51.1586";
+         rotation = "0 0 1 118.512";
          scale = "1 1 1";
          canSave = "1";
          canSaveDynamicFields = "1";
       };
       new Prefab() {
          fileName = "art/prefabs/7grainbags.prefab";
-         position = "254.708 379.77 51.1276";
-         rotation = "1 0 0 0";
+         position = "247.496 364.104 51.1276";
+         rotation = "0 0 1 118.512";
          scale = "1 1 1";
          canSave = "1";
          canSaveDynamicFields = "1";

@@ -258,3 +258,21 @@ singleton Material(ore3_ore_vein3)
    translucentBlendOp = "None";
    glow[0] = "1";
 };
+
+singleton Material(caleferata_Lemn_001)
+{
+   mapTo = "Lemn_001";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   doubleSided = "1";
+   translucentBlendOp = "None";
+};
+
+singleton Material(caleferata_metal_sina)
+{
+   mapTo = "metal_sina";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   doubleSided = "1";
+   translucentBlendOp = "None";
+};
