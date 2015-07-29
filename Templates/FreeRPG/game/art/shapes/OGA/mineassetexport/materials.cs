@@ -157,3 +157,104 @@ singleton Material(ore1_ore_vein1)
    doubleSided = "1";
    translucentBlendOp = "None";
 };
+
+singleton Material(campfire_Soup_campfire)
+{
+   mapTo = "Soup_campfire";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   doubleSided = "1";
+   translucentBlendOp = "None";
+   diffuseMap[0] = "art/shapes/OGA/mineassetexport/Texturi/cica coffee.jpg";
+};
+
+singleton Material(campfire_Rocks_campfire)
+{
+   mapTo = "Rocks_campfire";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   doubleSided = "1";
+   translucentBlendOp = "None";
+   diffuseMap[0] = "art/shapes/OGA/mineassetexport/Texturi/cauldron_rocks_diffus.tga";
+   normalMap[0] = "art/shapes/OGA/mineassetexport/Texturi/cauldron_rocks_normal.tga";
+};
+
+singleton Material(campfire_Cauldron_handle)
+{
+   mapTo = "Cauldron_handle";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   doubleSided = "1";
+   translucentBlendOp = "None";
+   diffuseMap[0] = "art/shapes/OGA/mineassetexport/Texturi/balama1.png";
+};
+
+singleton Material(campfire_Cauldron)
+{
+   mapTo = "Cauldron";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   diffuseColor[1] = "White";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   doubleSided = "1";
+   translucentBlendOp = "None";
+   diffuseMap[0] = "art/shapes/OGA/mineassetexport/Texturi/balama1.png";
+};
+
+singleton Material(campfire_Ashes_campfire)
+{
+   mapTo = "Ashes_campfire";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   doubleSided = "1";
+   translucentBlendOp = "None";
+   diffuseMap[0] = "art/shapes/OGA/mineassetexport/Texturi/cauldron_ash_dffuse.tga";
+   normalMap[0] = "art/shapes/OGA/mineassetexport/Texturi/cauldron_ash_normal.tga";
+};
+
+singleton Material(campfire_Suporti_metal_campfire)
+{
+   mapTo = "Suporti_metal_campfire";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   doubleSided = "1";
+   translucentBlendOp = "None";
+   diffuseMap[0] = "art/shapes/OGA/mineassetexport/Texturi/balama1.png";
+};
+
+singleton Material(nugget1)
+{
+   mapTo = "nugget1";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   doubleSided = "1";
+   translucentBlendOp = "None";
+};
+
+singleton Material(ore3_base_stone3)
+{
+   mapTo = "base_stone3";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   doubleSided = "1";
+   translucentBlendOp = "None";
+   diffuseMap[0] = "art/shapes/OGA/mineassetexport/Texturi/clanta.png";
+};
+
+singleton Material(ore3_ore_vein3)
+{
+   mapTo = "ore_vein3";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   doubleSided = "1";
+   translucentBlendOp = "None";
+   glow[0] = "1";
+};
