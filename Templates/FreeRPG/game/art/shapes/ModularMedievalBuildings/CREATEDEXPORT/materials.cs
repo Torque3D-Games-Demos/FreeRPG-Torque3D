@@ -363,3 +363,39 @@ singleton Material(thouse04_RoofTiles_005)
    specularPower[0] = "50";
    translucentBlendOp = "None";
 };
+
+singleton Material(house66_WindowDark2_002)
+{
+   mapTo = "WindowDark2_002";
+   diffuseMap[0] = "WindowAllBroken1";
+   specular[0] = "0.0125 0.0125 0.0125 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(thouse24_RoofTiles_006)
+{
+   mapTo = "RoofTiles_006";
+   diffuseMap[0] = "RoofTiles.jpg.005";
+   specular[0] = "0.00101947 0.00101947 0.00101947 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(thouse24_RoofTiles_004)
+{
+   mapTo = "RoofTiles_004";
+   diffuseMap[0] = "RoofTiles.jpg.004";
+   specular[0] = "0.00101947 0.00101947 0.00101947 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(thouse24_Wood_012)
+{
+   mapTo = "Wood_012";
+   diffuseMap[0] = "Wood.jpg.007";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
