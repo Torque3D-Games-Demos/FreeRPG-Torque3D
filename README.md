@@ -6,6 +6,8 @@ The FreeRPG Project is an idea to create a totally open-source and free RPG from
 
 [FreeRPG Project Trello](https://trello.com/b/2BrEPQ2C/freerpg-project-planning)
 
+[FreeRPG Release Repo](https://gitlab.com/FreeRPG/FreeRPG)
+
 #### How do I get set up? ####
 
 If you simply want to play FreeRPG or even use it as a base for your own RPG then first you need to clone this repo with the command below:
