@@ -6,22 +6,20 @@ The FreeRPG Project is an idea to create a totally open-source and free RPG from
 
 [FreeRPG Project Trello](https://trello.com/b/2BrEPQ2C/freerpg-project-planning)
 
+[FreeRPG-Torque3D Repo](https://gitlab.com/FreeRPG/FreeRPG-Torque3D)
+
 #### How do I get set up? ####
 
-If you simply want to play FreeRPG or even use it as a base for your own RPG then first you need to clone this repo with the command below:
+If you simply want to play FreeRPG then all you need to do is clone this repo with the command below:
 
-```git clone git@gitlab.com:FreeRPG/FreeRPG-Torque3D.git```
+```git clone git@gitlab.com:FreeRPG/FreeRPG.git```
 
-Once that has finished copy the `FreeRPG` Template from the ```FreeRPG-Torque3D/Templates``` folder to the ```FreeRPG-Torque3D/My Projects``` folder
+You should now have a ```FreeRPG.exe``` file in your newly cloned repo folder which you can use to run the FreeRPG Project.
 
-Then navigate to the ```FreeRPG-Torque3D/My Projects/FreeRPG``` folder and run the file that is named ```generateProjects.bat```. 
-
-After that has finished navigate to the ```FreeRPG-Torque3D/My Projects/FreeRPG/buildFiles/VisualStudio 2012``` folder then open the file named ```FreeRPG.sln``` and build your project in Visual Studio.
- 
-You should now have a ```FreeRPG.exe``` file in your ```FreeRPG-Torque3D/My Projects/FreeRPG/game``` folder which you can use to run the FreeRPG Project.
+If you would like to compile the engine/game from source to either contribute or to create your own RPG then head over to the [FreeRPG-Torque3D](https://gitlab.com/FreeRPG/FreeRPG-Torque3D) repo and follow the instructions provided.
 
 #### Contribution ####
-Please note that FreeRPG is still in the very early stages of development, DO NOT expect much, nothing is finished (or started in most cases) and if you would like to help contribute to the FreeRPG Project then please use the [Contact Form](http://hreikin.wix.com/freerpg) available at the bottom of the homepage. If you prefer to get your hands dirty then fork the project and create your own branch for your development work, then make a pull request when ready.
+Please note that FreeRPG is still in the very early stages of development, DO NOT expect much, nothing is finished (or started in most cases) and if you would like to help contribute to the FreeRPG Project then please use the [Contact Form](http://hreikin.wix.com/freerpg) available at the bottom of the homepage. If you prefer to get your hands dirty then fork the [FreeRPG-Torque3D](https://gitlab.com/FreeRPG/FreeRPG-Torque3D) repo and create your own branch for your development work, then make a pull request when ready.
 
 ### Torque 3D ###
 
@@ -42,7 +40,7 @@ They are available from the [downloads](http://wiki.torque3d.org/main:downloads)
 
 #### Related repositories ####
 
-* [Torque 3D main repository](https://github.com/GarageGames/Torque3D) (you are here!)
+* [Torque 3D main repository](https://github.com/GarageGames/Torque3D)
 * [Project Manager repository](https://github.com/GarageGames/Torque3D-ProjectManager)
 * [Offline documentation repository](https://github.com/GarageGames/Torque3D-Documentation)
 
