@@ -94,23 +94,24 @@
          canSave = "1";
          canSaveDynamicFields = "0";
       };
-   };
-   new GuiBitmapCtrl(LoadingLogo) {
-      bitmap = "art/gui/FreeRPG/FreeRPG-Logo.png";
-      wrap = "0";
-      position = "412 228";
-      extent = "200 200";
-      minExtent = "8 2";
-      horizSizing = "center";
-      vertSizing = "bottom";
-      profile = "GuiDefaultProfile";
-      visible = "1";
-      active = "1";
-      tooltipProfile = "GuiToolTipProfile";
-      hovertime = "1000";
-      isContainer = "0";
-      canSave = "1";
-      canSaveDynamicFields = "0";
+      new GuiBitmapCtrl(LoadingLogo) {
+         bitmap = "art/gui/FreeRPG/freerpgsimpletextlogo.png";
+         wrap = "0";
+         position = "55 -6";
+         extent = "389 133";
+         minExtent = "8 2";
+         horizSizing = "center";
+         vertSizing = "bottom";
+         profile = "GuiDefaultProfile";
+         visible = "0";
+         active = "1";
+         tooltipProfile = "GuiToolTipProfile";
+         hovertime = "1000";
+         isContainer = "0";
+         hidden = "1";
+         canSave = "1";
+         canSaveDynamicFields = "0";
+      };
    };
 };
 //--- OBJECT WRITE END ---

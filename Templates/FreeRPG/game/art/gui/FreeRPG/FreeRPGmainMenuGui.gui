@@ -40,19 +40,20 @@
          isDecoy = "0";
    };
    new GuiBitmapCtrl(FreeRPGLogoMainMenu) {
-      bitmap = "art/gui/FreeRPG/FreeRPG-Logo.png";
+      bitmap = "art/gui/FreeRPG/freerpgsimpletextlogo.png";
       wrap = "0";
-      position = "0 18";
-      extent = "300 300";
+      position = "50 30";
+      extent = "284 90";
       minExtent = "8 2";
       horizSizing = "right";
       vertSizing = "bottom";
       profile = "GuiDefaultProfile";
-      visible = "1";
+      visible = "0";
       active = "1";
       tooltipProfile = "GuiToolTipProfile";
       hovertime = "1000";
       isContainer = "0";
+      hidden = "1";
       canSave = "1";
       canSaveDynamicFields = "0";
    };
@@ -71,6 +72,26 @@
       canSave = "1";
       canSaveDynamicFields = "0";
 
+      new GuiButtonCtrl() {
+         text = "Play";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         useMouseEvents = "1";
+         position = "9 18";
+         extent = "289 75";
+         minExtent = "8 8";
+         horizSizing = "relative";
+         vertSizing = "bottom";
+         profile = "GuiMenuButtonProfile";
+         visible = "1";
+         active = "1";
+         command = "Canvas.pushDialog(ChooseLevelDlg);";
+         tooltipProfile = "GuiToolTipProfile";
+         hovertime = "1000";
+         isContainer = "0";
+         canSave = "1";
+         canSaveDynamicFields = "0";
+      };
       new GuiButtonCtrl() {
          text = "Join";
          groupNum = "-1";
@@ -173,26 +194,6 @@
          hovertime = "1000";
          isContainer = "0";
          internalName = "ExitButton";
-         canSave = "1";
-         canSaveDynamicFields = "0";
-      };
-      new GuiButtonCtrl() {
-         text = "Play";
-         groupNum = "-1";
-         buttonType = "PushButton";
-         useMouseEvents = "1";
-         position = "9 18";
-         extent = "289 75";
-         minExtent = "8 8";
-         horizSizing = "relative";
-         vertSizing = "bottom";
-         profile = "GuiMenuButtonProfile";
-         visible = "1";
-         active = "1";
-         command = "Canvas.pushDialog(ChooseLevelDlg);";
-         tooltipProfile = "GuiToolTipProfile";
-         hovertime = "1000";
-         isContainer = "0";
          canSave = "1";
          canSaveDynamicFields = "0";
       };
