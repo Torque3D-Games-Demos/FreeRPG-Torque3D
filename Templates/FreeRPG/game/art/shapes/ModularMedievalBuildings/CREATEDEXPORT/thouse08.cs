@@ -1,0 +1,8 @@
+
+singleton TSShapeConstructor(Thouse08Dae)
+{
+   baseShape = "./thouse08.dae";
+   adjustCenter = "1";
+   adjustFloor = "1";
+   loadLights = "0";
+};

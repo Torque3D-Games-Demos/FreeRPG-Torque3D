@@ -367,10 +367,12 @@ singleton Material(thouse04_RoofTiles_005)
 singleton Material(house66_WindowDark2_002)
 {
    mapTo = "WindowDark2_002";
-   diffuseMap[0] = "WindowAllBroken1";
+   diffuseMap[0] = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/WindowAllBroken1";
    specular[0] = "0.0125 0.0125 0.0125 1";
    specularPower[0] = "50";
    translucentBlendOp = "None";
+   doubleSided = "1";
+   materialTag0 = "Rock";
 };
 
 singleton Material(thouse24_RoofTiles_006)
