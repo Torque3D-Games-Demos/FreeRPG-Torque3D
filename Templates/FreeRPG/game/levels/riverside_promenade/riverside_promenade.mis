@@ -390,6 +390,7 @@ new SimGroup(MissionGroup) {
       position = "50.0117 -134.936 -1.96876";
       rotation = "1 0 0 0";
       scale = "1 1 1";
+      hidden = "1";
       canSave = "1";
       canSaveDynamicFields = "1";
    };
@@ -531,6 +532,7 @@ new SimGroup(MissionGroup) {
       position = "4.02523 36.163 -2.2e-005";
       rotation = "1 0 0 0";
       scale = "1 1 1";
+      hidden = "1";
       canSave = "1";
       canSaveDynamicFields = "1";
    };
@@ -672,6 +674,7 @@ new SimGroup(MissionGroup) {
       position = "18.2204 90.1796 -0.500009";
       rotation = "1 0 0 0";
       scale = "1 1 1";
+      hidden = "1";
       canSave = "1";
       canSaveDynamicFields = "1";
    };
@@ -813,6 +816,7 @@ new SimGroup(MissionGroup) {
       position = "43.7019 5.63286 1.0372";
       rotation = "1 0 0 0";
       scale = "1 1 1";
+      hidden = "1";
       canSave = "1";
       canSaveDynamicFields = "1";
    };
@@ -1222,7 +1226,7 @@ new SimGroup(MissionGroup) {
          renderNormals = "0";
          forceDetail = "-1";
          position = "136.739 171.514 0.193921";
-         rotation = "0.0835338 0.185293 -0.979127 93.0161";
+         rotation = "0.0835338 0.185293 -0.979126 93.0162";
          scale = "1.53571 1.34967 1.43742";
          canSave = "1";
          canSaveDynamicFields = "1";
@@ -2387,7 +2391,7 @@ new SimGroup(MissionGroup) {
          playAmbient = "1";
          meshCulling = "0";
          originSort = "0";
-         collisionType = "Visible Mesh";
+         collisionType = "Collision Mesh";
          decalType = "None";
          allowPlayerStep = "1";
          alphaFadeEnable = "0";
@@ -2515,7 +2519,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/Daniel74BlendSwap/Buildings/House03/House3Upload.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2535,7 +2539,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/Daniel74BlendSwap/Buildings/House04/House4Upload.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2555,7 +2559,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house47.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2575,7 +2579,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse06.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2595,7 +2599,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house07.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2615,7 +2619,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house10.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2635,7 +2639,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house11.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2655,7 +2659,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse11.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2675,7 +2679,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/hhouse05.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2695,7 +2699,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house53.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2715,7 +2719,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse09.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2735,7 +2739,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house75.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2755,7 +2759,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house55.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2775,7 +2779,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse12.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2795,7 +2799,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house37.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2815,7 +2819,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/hhouse01.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2835,7 +2839,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse21.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2855,7 +2859,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house35.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2875,7 +2879,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house30.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2895,7 +2899,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse07.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2915,7 +2919,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house65.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2935,7 +2939,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house12.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2955,7 +2959,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/hhouse04.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2975,7 +2979,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house39.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -2995,7 +2999,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/Daniel74BlendSwap/Buildings/Church/church.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3015,7 +3019,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house73.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3035,7 +3039,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/hhouse01.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3055,7 +3059,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse14.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3075,7 +3079,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house14.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3095,7 +3099,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse16.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3115,7 +3119,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house83.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3135,7 +3139,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse22.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3155,7 +3159,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house44.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3167,7 +3171,7 @@ new SimGroup(MissionGroup) {
          renderNormals = "0";
          forceDetail = "-1";
          position = "46.2705 82.4837 -2.05361";
-         rotation = "0 0 -1 10.5366";
+         rotation = "0 0 -1 10.5365";
          scale = "1 1 1";
          canSave = "1";
          canSaveDynamicFields = "1";
@@ -3175,7 +3179,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house74.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3195,7 +3199,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house60.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3215,7 +3219,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house79.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3235,7 +3239,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse01.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3255,7 +3259,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/hhouse06.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3275,7 +3279,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house42.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3295,7 +3299,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house46.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3315,7 +3319,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse24.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3335,7 +3339,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house05.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3355,7 +3359,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse01.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3375,7 +3379,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house49.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3395,7 +3399,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse04.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3415,7 +3419,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/Daniel74BlendSwap/Buildings/House02/House2_1Upload.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3435,7 +3439,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house35.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3455,7 +3459,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/hhouse05.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3475,7 +3479,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house29.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3495,7 +3499,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse09.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3515,7 +3519,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house06.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3535,7 +3539,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/hhouse02.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3555,7 +3559,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse15.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3575,7 +3579,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse23.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3595,7 +3599,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house62.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3615,7 +3619,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house69.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3635,7 +3639,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house86.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3655,7 +3659,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house40.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3675,7 +3679,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/Daniel74BlendSwap/Buildings/ThePaintedWench/ThePaintedWench_02Upload.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3695,7 +3699,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse08.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3715,7 +3719,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/hhouse03.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3735,7 +3739,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house05.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3755,7 +3759,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse19.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3775,7 +3779,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house31.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3795,7 +3799,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house06.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3815,7 +3819,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse05.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3835,7 +3839,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/hhouse07.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3855,7 +3859,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house41.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3875,7 +3879,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house85.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3895,7 +3899,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house28.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3915,7 +3919,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house87.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3935,7 +3939,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/Daniel74BlendSwap/Buildings/WaterPoweredSawmill/WaterPoweredSawmillUpload.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3955,7 +3959,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse07.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3975,7 +3979,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house13.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -3995,7 +3999,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house18.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -4015,7 +4019,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/Daniel74BlendSwap/Buildings/House01/House1Upload.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -4035,7 +4039,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse13.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -4055,7 +4059,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house72.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -4075,7 +4079,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/Daniel74BlendSwap/Buildings/Blacksmith/Blacksmith1Upload.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -4095,7 +4099,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse10.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -4115,7 +4119,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/hhouse08.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -4135,7 +4139,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house16.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -4155,7 +4159,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house03.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -4175,7 +4179,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house53.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -4195,7 +4199,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/hhouse08.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -4215,7 +4219,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/thouse18.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -4235,7 +4239,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house69.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
@@ -4255,7 +4259,7 @@ new SimGroup(MissionGroup) {
       new TSStatic() {
          shapeName = "art/shapes/ModularMedievalBuildings/CREATEDEXPORT/house76.dae";
          playAmbient = "1";
-         meshCulling = "0";
+         meshCulling = "1";
          originSort = "0";
          collisionType = "Visible Mesh";
          decalType = "Collision Mesh";
