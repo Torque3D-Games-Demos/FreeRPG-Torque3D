@@ -2,7 +2,7 @@
 
 The FreeRPG Project is an idea to create a totally open-source and free RPG from assets to game engine, FreeRPG uses the Torque3D MIT engine. The project has only just started and it is literally just stock Torque3D at the moment with some open-source assets available but the plan is to create a base RPG which users can then either "mod" or use to create their own FreeRPG. For more info check out the links below:
 
-[FreeRPG Project Website](http://hreikin.wix.com/freerpg)
+[FreeRPG Project Website](http://freerpgproject.wordpress.com)
 
 [FreeRPG Project Trello](https://trello.com/b/2BrEPQ2C/freerpg-project-planning)
 
@@ -19,7 +19,7 @@ You should now have a ```FreeRPG.exe``` file in your newly cloned repo folder wh
 If you would like to compile the engine/game from source to either contribute or to create your own RPG then head over to the [FreeRPG-Torque3D](https://gitlab.com/FreeRPG/FreeRPG-Torque3D) repo and follow the instructions provided.
 
 #### Contribution ####
-Please note that FreeRPG is still in the very early stages of development, DO NOT expect much, nothing is finished (or started in most cases) and if you would like to help contribute to the FreeRPG Project then please use the [Contact Form](http://hreikin.wix.com/freerpg) available at the bottom of the homepage. If you prefer to get your hands dirty then fork the [FreeRPG-Torque3D](https://gitlab.com/FreeRPG/FreeRPG-Torque3D) repo and create your own branch for your development work, then make a pull request when ready.
+Please note that FreeRPG is still in the very early stages of development, DO NOT expect much, nothing is finished (or started in most cases) and if you would like to help contribute to the FreeRPG Project then please use the [Contact Form](http://freerpgproject.wordpress.com/contact) available at the website. If you prefer to get your hands dirty then fork the [FreeRPG-Torque3D](https://gitlab.com/FreeRPG/FreeRPG-Torque3D) repo and create your own branch for your development work, then make a pull request when ready.
 
 ### Torque 3D ###
 
