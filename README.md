@@ -31,7 +31,7 @@ After that has finished navigate to the ```FreeRPG-Torque3D/My Projects/FreeRPG/
 You should now have a ```FreeRPG.exe``` file in your ```FreeRPG-Torque3D/My Projects/FreeRPG/game``` folder which you can use to run the FreeRPG Project.
 
 #### Contribution ####
-Please note that FreeRPG is still in the very early stages of development, DO NOT expect much, nothing is finished (or started in most cases) and if you would like to help contribute to the FreeRPG Project then please use the [Contact Form](http://freerpgproject.wordpress.com/contact) available at website. If you prefer to get your hands dirty then fork the project and create your own branch for your development work, then make a pull request when ready.
+Please note that FreeRPG is still in the very early stages of development, DO NOT expect much, nothing is finished (or started in most cases) and if you would like to help contribute to the FreeRPG Project then please use the [Contact Form](http://freerpgproject.wordpress.com/contact) available at the website. If you prefer to get your hands dirty then fork the project and create your own branch for your development work, then make a pull request when ready.
 
 ### Torque 3D ###
 
