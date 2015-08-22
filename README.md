@@ -8,6 +8,12 @@ The FreeRPG Project is an idea to create a totally open-source and free RPG from
 
 [FreeRPG Release Repo](https://gitlab.com/FreeRPG/FreeRPG)
 
+#### Notes ####
+
+* I advise using SSH to clone the repo as opposed to HTTPS due to its size, this requires having an SSH key generated on your system, please see [this link for more information.](https://help.github.com/articles/generating-ssh-keys/)
+* When compiling the engine from source it is possible to use the Project Manager/CMAKE to generate your FreeRPG project if you wish, the instructions listed below are only a very basic set, more information can be found at the [Torque3D Wiki](http://torque3d.wikidot.com/).
+* I will provide only 32-bit binaries in the [FreeRPG](https://gitlab.com/FreeRPG/FreeRPG) release repo for windows until the linux/64-bit support is more stable but you are welcome to try them for yourself using the [FreeRPG-Torque3D](https://gitlab.com/FreeRPG/FreeRPG-Torque3D) engine repo and the instructions available at the [Torque3D Wiki](http://torque3d.wikidot.com/).
+
 #### Just want the game ? ####
 
 If you simply want to play FreeRPG then all you need to do is clone the [FreeRPG Release Repo](https://gitlab.com/FreeRPG/FreeRPG) with the command below:
