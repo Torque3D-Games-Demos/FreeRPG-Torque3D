@@ -1,5 +1,5 @@
 ###############################################
-FreeRPG Project OpenGameArt Asset Credits
+OpenGameArt.org automatically generated credits file notice:
 ###############################################
 
 Title:
@@ -632,23 +632,6 @@ File(s):
 ----------------------------------------
 
 Title:
-    Basic Wooden Fence
-
-Author:
-    WeaponGuy
-
-URL:
-    http://opengameart.org/content/basic-wooden-fence
-
-License(s):
-    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
-
-File(s):
-    * picketfence_0.blend
-
-----------------------------------------
-
-Title:
     Konserian Swamptree
 
 Author:
@@ -731,6 +714,430 @@ License(s):
 
 File(s):
     * macarena.zip
+
+----------------------------------------
+
+Title:
+    Fountain
+
+Author:
+    Alejandro CG
+
+URL:
+    http://opengameart.org/content/fountain-1
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * fountain.zip
+
+----------------------------------------
+
+Title:
+    3 houses
+
+Author:
+    Alejandro CG
+
+URL:
+    http://opengameart.org/content/3-houses
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * 3houses.zip
+
+----------------------------------------
+
+Title:
+    Merchant post
+
+Author:
+    Daniel Hermoso Caballero
+
+URL:
+    http://opengameart.org/content/merchant-post
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+Copyright/Attribution Notice:
+    By Daniel Hermoso, from KW project
+
+File(s):
+    * merchant-post.zip
+
+----------------------------------------
+
+Title:
+    Forge
+
+Author:
+    Alejandro CG
+
+URL:
+    http://opengameart.org/content/forge-0
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * forge.zip
+
+----------------------------------------
+
+Title:
+    Cottage
+
+Author:
+    WeaponGuy
+
+URL:
+    http://opengameart.org/content/cottage
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * housemodel.blend
+
+----------------------------------------
+
+Title:
+    Ladder
+
+Author:
+    cemkalyoncu
+
+URL:
+    http://opengameart.org/content/ladder
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * ladder.blend
+
+----------------------------------------
+
+Title:
+    Merchant tent v3
+
+Author:
+    yd
+
+URL:
+    http://opengameart.org/content/merchant-tent-v3
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * merchant_tent3.blend
+
+----------------------------------------
+
+Title:
+    Merchant tent v2
+
+Author:
+    yd
+
+URL:
+    http://opengameart.org/content/merchant-tent-v2
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * merchtent.03.png
+    * merchant_tent_2.blend
+
+----------------------------------------
+
+Title:
+    ship
+
+Author:
+    ctdabomb
+
+URL:
+    http://opengameart.org/content/ship
+
+License(s):
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+
+SPECIAL ATTRIBUTION INSTRUCTIONS:
+    Attribution Instructions are found in .blend file
+
+File(s):
+    * ship.zip
+
+----------------------------------------
+
+Title:
+    Acient ruins
+
+Author:
+    killyoverdrive
+
+URL:
+    http://opengameart.org/content/acient-ruins
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * ruins entrance.blend
+
+----------------------------------------
+
+Title:
+    3D Mine Assets
+
+Author:
+    Gherasim (Horia Simu)
+
+URL:
+    http://opengameart.org/content/3d-mine-assets
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+SPECIAL ATTRIBUTION INSTRUCTIONS:
+    If you wish to (and it would be nice to), attribute the original author, Gherasim (Horia Simu).
+
+File(s):
+    * Mine Assets.zip
+
+----------------------------------------
+
+Title:
+    Barricade
+
+Author:
+    Sullivan
+
+URL:
+    http://opengameart.org/content/barricade
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
+    * GPL 2.0 ( http://www.gnu.org/licenses/old-licenses/gpl-2.0.html )
+
+File(s):
+    * barricade.blend
+
+----------------------------------------
+
+Title:
+    ancient ruins 2
+
+Author:
+    killyoverdrive
+
+URL:
+    http://opengameart.org/content/ancient-ruins-2
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * acient runes 2.blend
+
+----------------------------------------
+
+Title:
+    Kujasa - The Beginning
+
+Author:
+    William.Thompsonj
+
+Collaborators:
+    CatBlack
+
+URL:
+    http://opengameart.org/content/kujasa-the-beginning
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
+    * GPL 2.0 ( http://www.gnu.org/licenses/old-licenses/gpl-2.0.html )
+    * OGA-BY 3.0 ( http://static.opengameart.org/OGA-BY-3.0.txt )
+
+Copyright/Attribution Notice:
+    Attribute Sergei Churbanov, aka CatBlack, as the graphic artist, and me as contributor.
+
+File(s):
+    * sk4.jpg
+    * sk5.jpg
+
+----------------------------------------
+
+Title:
+    Flare Environment Concept Art Pack 1
+
+Author:
+    Justin Nichol
+
+Collaborators:
+    Clint Bellanger
+
+URL:
+    http://opengameart.org/content/flare-environment-concept-art-pack-1
+
+License(s):
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
+
+File(s):
+    * FlareEnvironmentConcepts1.zip
+
+----------------------------------------
+
+Title:
+    African-inspired colour art [Spears of the Dawn: The House of Bone and Amber]
+
+Author:
+     Kevin Crawford
+
+URL:
+    http://opengameart.org/content/african-inspired-colour-art-spears-of-the-dawn-the-house-of-bone-and-amber
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+SPECIAL ATTRIBUTION INSTRUCTIONS:
+    While attribution is not required, the publisher asks that at least the artists are credited.
+
+File(s):
+    * The_House_of_Bone_and_Amber_Art_Pack.zip
+
+----------------------------------------
+
+Title:
+    digital drawing images 1
+
+Author:
+    dogchicken
+
+URL:
+    http://opengameart.org/content/digital-drawing-images-1
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * bae4.jpg
+    * crowprin4.jpg
+    * darknight.png
+    * darkprincsfin.png
+    * oldman_sea.png
+    * spring_demon.png
+    * pic16.jpg
+    * pic17.jpg
+
+----------------------------------------
+
+Title:
+    environment
+
+Author:
+    kirill777
+
+URL:
+    http://opengameart.org/content/environment
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+SPECIAL ATTRIBUTION INSTRUCTIONS:
+    environment
+
+File(s):
+    * ручьи.psd
+
+----------------------------------------
+
+Title:
+    Queen giving orders to princess
+
+Author:
+    -AP-
+
+URL:
+    http://opengameart.org/content/queen-giving-orders-to-princess
+
+License(s):
+    * LGPL 3.0 ( http://www.gnu.org/licenses/lgpl-3.0.html )
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+
+File(s):
+    * castle15b.jpg
+
+----------------------------------------
+
+Title:
+    Attack Icons Wesnoth
+
+Author:
+    eleazzaar
+
+URL:
+    http://opengameart.org/content/attack-icons-wesnoth
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
+    * GPL 2.0 ( http://www.gnu.org/licenses/old-licenses/gpl-2.0.html )
+
+Copyright/Attribution Notice:
+    J. W. Bjerk (eleazzaar) -- www.jwbjerk.com/art -- find this and other open art at: http://opengameart.org
+
+File(s):
+    * attacks.7z
+
+----------------------------------------
+
+Title:
+    Moderna Graphical Interface
+
+Author:
+    Jorge Avila
+
+URL:
+    http://opengameart.org/content/moderna-graphical-interface
+
+License(s):
+    * LGPL 2.1 ( http://www.gnu.org/licenses/lgpl-2.1.html )
+    * LGPL 3.0 ( http://www.gnu.org/licenses/lgpl-3.0.html )
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * 640x480_0.psd
+
+----------------------------------------
+
+Title:
+    G.u.i. for some rpg game
+
+Author:
+    Jorge Avila
+
+URL:
+    http://opengameart.org/content/gui-for-some-rpg-game
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * gui_alpha_2010_12_9_2_0.png
+    * graphical_user_interface.psd
 
 ----------------------------------------
 
