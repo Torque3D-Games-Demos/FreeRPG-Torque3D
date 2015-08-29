@@ -25,6 +25,50 @@ new SimGroup(MissionGroup) {
          enabled = "1";
          levelName = "Greim";
    };
+   new SimGroup(PlayerSpawnPoints) {
+      canSave = "1";
+      canSaveDynamicFields = "1";
+
+      new SpawnSphere(GreimTravel) {
+         spawnClass = "Player";
+         spawnDatablock = "DefaultPlayerData";
+         autoSpawn = "0";
+         spawnTransform = "0";
+         radius = "1";
+         sphereWeight = "1";
+         indoorWeight = "100";
+         outdoorWeight = "100";
+         isAIControlled = "0";
+         dataBlock = "SpawnSphereMarker";
+         position = "304.892 397.747 49.0167";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
+   };
+   new Trigger(KoIronTravel) {
+      polyhedron = "-0.5000000 0.5000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+      dataBlock = "transitionTrigger";
+      position = "314.824 420.001 47.5934";
+      rotation = "1 0 0 0";
+      scale = "3.89423 3.89423 3.89423";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mission = "levels\\Racing_Island\\Racing_Island.mis";
+         target = "KoIronTravel";
+   };
+   new Trigger(CatellusTravel) {
+      polyhedron = "-0.5000000 0.5000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+      dataBlock = "transitionTrigger";
+      position = "293.425 419.71 47.5814";
+      rotation = "1 0 0 0";
+      scale = "3.8435 3.8435 3.8435";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mission = "levels\\riverside_promenade\\riverside_promenade.mis";
+         target = "CatellusTravel";
+   };
    new SimGroup(PlayerDropPoints) {
       canSave = "1";
       canSaveDynamicFields = "1";
@@ -512,7 +556,7 @@ new SimGroup(MissionGroup) {
          canSaveDynamicFields = "1";
       };
    };
-   new SimGroup(rocks) {
+   new SimGroup(Rocks) {
       canSave = "1";
       canSaveDynamicFields = "1";
 
@@ -695,7 +739,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "325.811 324.369 57.2162";
-            rotation = "0.99998 -0.00431351 -0.00471964 95.151";
+            rotation = "0.99998 -0.00431351 -0.00471964 95.1512";
             scale = "3.41375 5.49002 2.56958";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -1745,7 +1789,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "340.184 265.149 73.693";
-            rotation = "0.177594 -0.210175 0.961398 92.2453";
+            rotation = "0.177594 -0.210175 0.961398 92.2451";
             scale = "1.86004 1.86004 1.86004";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -1830,7 +1874,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "348.872 248.665 60.7479";
-            rotation = "-0.983399 0.158091 0.0890761 89.0499";
+            rotation = "-0.983399 0.158091 0.0890761 89.0501";
             scale = "3.15901 3.02691 3.20421";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -2712,7 +2756,7 @@ new SimGroup(MissionGroup) {
       new Prefab() {
          fileName = "art/prefabs/cratebarrelmix.prefab";
          position = "328.459 306.268 50.1841";
-         rotation = "-0.0214108 0.0190414 0.999589 96.7276";
+         rotation = "-0.0214108 0.0190414 0.999589 96.7274";
          scale = "1 1 1";
          canSave = "1";
          canSaveDynamicFields = "1";

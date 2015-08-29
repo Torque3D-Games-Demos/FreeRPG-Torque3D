@@ -7,6 +7,50 @@ new SimGroup(MissionGroup) {
       enabled = "1";
       musicTrack = "lush";
 
+   new SimGroup(PlayerSpawnPoints) {
+      canSave = "1";
+      canSaveDynamicFields = "1";
+
+      new SpawnSphere(PacificTravel) {
+         spawnClass = "Player";
+         spawnDatablock = "DefaultPlayerData";
+         autoSpawn = "0";
+         spawnTransform = "0";
+         radius = "1";
+         sphereWeight = "1";
+         indoorWeight = "100";
+         outdoorWeight = "100";
+         isAIControlled = "0";
+         dataBlock = "SpawnSphereMarker";
+         position = "-421.742 620.209 66.1984";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
+   };
+   new Trigger(KoIronTravel) {
+      polyhedron = "-0.5000000 0.5000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+      dataBlock = "transitionTrigger";
+      position = "-427.707 590.637 65.1332";
+      rotation = "1 0 0 0";
+      scale = "2.95684 2.95684 2.95684";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mission = "levels\\Racing_Island\\Racing_Island.mis";
+         target = "KoIronTravel";
+   };
+   new Trigger(RanLoTravel) {
+      polyhedron = "-0.5000000 0.5000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+      dataBlock = "transitionTrigger";
+      position = "-446.107 601.434 65.1555";
+      rotation = "1 0 0 0";
+      scale = "2.97655 2.97655 2.97655";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mission = "levels\\lonerock_island\\Lonerock_Island.mis";
+         target = "RanLoTravel";
+   };
    new SimGroup(EnvironmentStuff) {
       internalName = "level";
       canSave = "1";
@@ -3715,7 +3759,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "-213.894 793.06 88.1228";
-            rotation = "0.0239963 -0.0210442 0.999491 97.5429";
+            rotation = "0.0239963 -0.0210442 0.999491 97.5433";
             scale = "2.5042 2.5042 2.83027";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -3875,7 +3919,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "-214.181 793.06 91.288";
-            rotation = "0.0239963 -0.0210442 0.999491 97.5428";
+            rotation = "0.0239963 -0.0210442 0.999491 97.5432";
             scale = "2.5042 2.5042 2.83027";
             canSave = "1";
             canSaveDynamicFields = "1";
@@ -5603,7 +5647,7 @@ new SimGroup(MissionGroup) {
                shadowDarkenColor = "0 0 0 -1";
                includeLightmappedGeometryInShadow = "0";
                position = "-253.732 822.797 70.0888";
-               rotation = "-0.0808602 -0.0231153 0.996457 89.3521";
+               rotation = "-0.0808602 -0.0231153 0.996457 89.3517";
                canSave = "1";
                canSaveDynamicFields = "1";
             };
@@ -5622,7 +5666,7 @@ new SimGroup(MissionGroup) {
                renderNormals = "0";
                forceDetail = "-1";
                position = "-253.561 823.104 67.1322";
-               rotation = "-0.0808602 -0.0231153 0.996457 89.3521";
+               rotation = "-0.0808602 -0.0231153 0.996457 89.3517";
                scale = "1.60386 1.60386 1.60386";
                canSave = "1";
                canSaveDynamicFields = "1";
@@ -6457,7 +6501,7 @@ new SimGroup(MissionGroup) {
             renderNormals = "0";
             forceDetail = "-1";
             position = "-258.867 755.505 57.4261";
-            rotation = "0.812576 0.43723 0.385421 93.7059";
+            rotation = "0.812576 0.43723 0.385421 93.7055";
             scale = "5.49789 5.49789 5.49789";
             canSave = "1";
             canSaveDynamicFields = "1";

@@ -124,25 +124,25 @@ function onCyclePauseEnd()
 
    // Just cycle through the missions for now.
 
-   %search = $Server::MissionFileSpec;
-   %oldMissionFile = makeRelativePath( $Server::MissionFile );
+   // %search = $Server::MissionFileSpec;
+   // %oldMissionFile = makeRelativePath( $Server::MissionFile );
       
-   for( %file = findFirstFile( %search ); %file !$= ""; %file = findNextFile( %search ) )
-   {
-      if( %file $= %oldMissionFile )
-      {
+   // for( %file = findFirstFile( %search ); %file !$= ""; %file = findNextFile( %search ) )
+   // {
+      // if( %file $= %oldMissionFile )
+      // {
          // Get the next one, back to the first if there is no next.
-         %file = findNextFile( %search );
-         if( %file $= "" )
-            %file = findFirstFile(%search);
-         break;
-      }
-   }
+         // %file = findNextFile( %search );
+         // if( %file $= "" )
+            // %file = findFirstFile(%search);
+         // break;
+      // }
+   // }
 
-   if( %file $= "" )
-      %file = findFirstFile( %search );
+   // if( %file $= "" )
+      // %file = findFirstFile( %search );
 
-   loadMission(%file);
+   loadMission($Server::TargetMission);
 }
 
 //-----------------------------------------------------------------------------

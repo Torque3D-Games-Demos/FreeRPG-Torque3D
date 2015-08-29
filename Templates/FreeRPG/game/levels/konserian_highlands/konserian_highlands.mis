@@ -25,6 +25,39 @@ new SimGroup(MissionGroup) {
          enabled = "1";
          levelName = "Konserian Highlands";
    };
+   new SimGroup(PlayerSpawnPoints) {
+      canSave = "1";
+      canSaveDynamicFields = "1";
+
+      new SpawnSphere(KonserianHighlandsTravel) {
+         spawnClass = "Player";
+         spawnDatablock = "DefaultPlayerData";
+         autoSpawn = "0";
+         spawnTransform = "0";
+         radius = "1";
+         sphereWeight = "1";
+         indoorWeight = "100";
+         outdoorWeight = "100";
+         isAIControlled = "0";
+         dataBlock = "SpawnSphereMarker";
+         position = "324 -448 26";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
+   };
+   new Trigger(CatellusTravel) {
+      polyhedron = "-0.5000000 0.5000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+      dataBlock = "transitionTrigger";
+      position = "330.128 -456.839 23.9877";
+      rotation = "1 0 0 0";
+      scale = "7.88141 7.88141 7.88141";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mission = "levels\\riverside_promenade\\riverside_promenade.mis";
+         target = "CatellusTravel";
+   };
    new SimGroup(PlayerDropPoints) {
       canSave = "1";
       canSaveDynamicFields = "1";
@@ -577,7 +610,7 @@ new SimGroup(MissionGroup) {
          renderNormals = "0";
          forceDetail = "-1";
          position = "31.9904 701.97 64.3391";
-         rotation = "-0.261008 -0.88737 -0.380066 95.8695";
+         rotation = "-0.261008 -0.88737 -0.380066 95.8696";
          scale = "2.65853 1.90918 1.90918";
          canSave = "1";
          canSaveDynamicFields = "1";

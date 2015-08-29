@@ -25,6 +25,50 @@ new SimGroup(MissionGroup) {
          enabled = "1";
          levelName = "Ran Lo";
    };
+   new SimGroup(PlayerSpawnPoints) {
+      canSave = "1";
+      canSaveDynamicFields = "1";
+
+      new SpawnSphere(RanLoTravel) {
+         spawnClass = "Player";
+         spawnDatablock = "DefaultPlayerData";
+         autoSpawn = "0";
+         spawnTransform = "0";
+         radius = "1";
+         sphereWeight = "1";
+         indoorWeight = "100";
+         outdoorWeight = "100";
+         isAIControlled = "0";
+         dataBlock = "SpawnSphereMarker";
+         position = "18.6215 -205.71 107.088";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
+   };
+   new Trigger(PacificTravel) {
+      polyhedron = "-0.5000000 0.5000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+      dataBlock = "transitionTrigger";
+      position = "39.6188 -223.077 106.684";
+      rotation = "1 0 0 0";
+      scale = "3.02258 3.02258 3.02258";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mission = "levels\\Pacific.mis";
+         target = "PacificTravel";
+   };
+   new Trigger(TyTravel) {
+      polyhedron = "-0.5000000 0.5000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+      dataBlock = "transitionTrigger";
+      position = "19.5857 -230.961 106.679";
+      rotation = "1 0 0 0";
+      scale = "3.44136 3.44136 3.44136";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mission = "levels\\FPS_Island\\FPS_Island.mis";
+         target = "TyTravel";
+   };
    new SimGroup(PlayerDropPoints) {
       canSave = "1";
       canSaveDynamicFields = "1";
@@ -3456,46 +3500,6 @@ new SimGroup(MissionGroup) {
          position = "-181.798 -214.842 151.331";
          rotation = "-0.258717 -0.249232 0.933246 91.8179";
          scale = "1 1 1";
-         canSave = "1";
-         canSaveDynamicFields = "1";
-      };
-      new TSStatic() {
-         shapeName = "art/shapes/blendswap/Pup Tent.dae";
-         playAmbient = "1";
-         meshCulling = "0";
-         originSort = "0";
-         collisionType = "Visible Mesh";
-         decalType = "Collision Mesh";
-         allowPlayerStep = "1";
-         alphaFadeEnable = "0";
-         alphaFadeStart = "100";
-         alphaFadeEnd = "150";
-         alphaFadeInverse = "0";
-         renderNormals = "0";
-         forceDetail = "-1";
-         position = "-78.0482 273.167 138.158";
-         rotation = "1 0 0 0";
-         scale = "0.25 0.25 0.25";
-         canSave = "1";
-         canSaveDynamicFields = "1";
-      };
-      new TSStatic() {
-         shapeName = "art/shapes/blendswap/Pup Tent.dae";
-         playAmbient = "1";
-         meshCulling = "0";
-         originSort = "0";
-         collisionType = "Visible Mesh";
-         decalType = "Collision Mesh";
-         allowPlayerStep = "1";
-         alphaFadeEnable = "0";
-         alphaFadeStart = "100";
-         alphaFadeEnd = "150";
-         alphaFadeInverse = "0";
-         renderNormals = "0";
-         forceDetail = "-1";
-         position = "-85.7962 278.257 138.158";
-         rotation = "0 0 -1 92.192";
-         scale = "0.25 0.25 0.25";
          canSave = "1";
          canSaveDynamicFields = "1";
       };

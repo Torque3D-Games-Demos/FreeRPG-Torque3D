@@ -28,6 +28,50 @@ new SimGroup(MissionGroup) {
          enabled = "1";
          levelName = "Ko Iron";
    };
+   new SimGroup(PlayerSpawnPoints) {
+      canSave = "1";
+      canSaveDynamicFields = "1";
+
+      new SpawnSphere(KoIronTravel) {
+         spawnClass = "Player";
+         spawnDatablock = "DefaultPlayerData";
+         autoSpawn = "0";
+         spawnTransform = "0";
+         radius = "1";
+         sphereWeight = "1";
+         indoorWeight = "100";
+         outdoorWeight = "100";
+         isAIControlled = "0";
+         dataBlock = "SpawnSphereMarker";
+         position = "186.85 -432.382 46.6327";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
+   };
+   new Trigger(GreimTravel) {
+      polyhedron = "-0.5000000 0.5000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+      dataBlock = "transitionTrigger";
+      position = "206.873 -443.019 44.296";
+      rotation = "1 0 0 0";
+      scale = "8.6537 8.6537 8.6537";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mission = "levels\\volcav_island\\volcav_island.mis";
+         target = "GreimTravel";
+   };
+   new Trigger(PacificTravel) {
+      polyhedron = "-0.5000000 0.5000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+      dataBlock = "transitionTrigger";
+      position = "171.328 -443.569 44.1743";
+      rotation = "1 0 0 0";
+      scale = "8.66399 8.66399 8.66399";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mission = "levels\\Pacific.mis";
+         target = "PacificTravel";
+   };
    new SimGroup(PlayerDropPoints) {
       canSave = "1";
       canSaveDynamicFields = "1";
@@ -1821,7 +1865,7 @@ new SimGroup(MissionGroup) {
       renderNormals = "0";
       forceDetail = "-1";
       position = "-103.461 -14.0408 49.8018";
-      rotation = "-0.0998748 -0.297254 0.94956 59.4675";
+      rotation = "-0.0998749 -0.297254 0.94956 59.4675";
       scale = "1 1 1";
       canSave = "1";
       canSaveDynamicFields = "1";

@@ -25,6 +25,50 @@ new SimGroup(MissionGroup) {
          enabled = "1";
          levelName = "Catellus";
    };
+   new SimGroup(PlayerSpawnPoints) {
+      canSave = "1";
+      canSaveDynamicFields = "1";
+
+      new SpawnSphere(CatellusTravel) {
+         spawnClass = "Player";
+         spawnDatablock = "DefaultPlayerData";
+         autoSpawn = "0";
+         spawnTransform = "0";
+         radius = "1";
+         sphereWeight = "1";
+         indoorWeight = "100";
+         outdoorWeight = "100";
+         isAIControlled = "0";
+         dataBlock = "SpawnSphereMarker";
+         position = "39.3812 -24.1778 1.83032";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         canSave = "1";
+         canSaveDynamicFields = "1";
+      };
+   };
+   new Trigger(GreimTravel) {
+      polyhedron = "-0.5000000 0.5000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+      dataBlock = "transitionTrigger";
+      position = "109.95 226.53 -5.6865";
+      rotation = "1 0 0 0";
+      scale = "8.62301 8.62301 8.62301";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mission = "levels\\volcav_island\\volcav_island.mis";
+         target = "GreimTravel";
+   };
+   new Trigger(KonserianHighlandsTravel) {
+      polyhedron = "-0.5000000 0.5000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+      dataBlock = "transitionTrigger";
+      position = "9.56633 -229.345 -2.01065";
+      rotation = "1 0 0 0";
+      scale = "6.17605 6.17605 6.17605";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mission = "levels\\konserian_highlands\\konserian_highlands.mis";
+         target = "KonserianHighlandsTravel";
+   };
    new SimGroup(PlayerDropPoints) {
       canSave = "1";
       canSaveDynamicFields = "1";
@@ -1083,7 +1127,7 @@ new SimGroup(MissionGroup) {
       canSave = "1";
       canSaveDynamicFields = "1";
    };
-   new SimGroup(rocks) {
+   new SimGroup(Rocks) {
       canSave = "1";
       canSaveDynamicFields = "1";
 
@@ -3862,7 +3906,7 @@ new SimGroup(MissionGroup) {
          renderNormals = "0";
          forceDetail = "-1";
          position = "31.7358 83.1302 1.79353";
-         rotation = "-0.0319514 -0.0318008 0.998984 89.788";
+         rotation = "-0.0319514 -0.0318008 0.998984 89.7882";
          scale = "1 1 1";
          canSave = "1";
          canSaveDynamicFields = "1";
@@ -3902,7 +3946,7 @@ new SimGroup(MissionGroup) {
          renderNormals = "0";
          forceDetail = "-1";
          position = "30.8895 70.8662 0.663721";
-         rotation = "-0.0319369 -0.0279607 0.999099 97.1062";
+         rotation = "-0.0319369 -0.0279607 0.999099 97.1063";
          scale = "1 1 1";
          canSave = "1";
          canSaveDynamicFields = "1";
@@ -3942,7 +3986,7 @@ new SimGroup(MissionGroup) {
          renderNormals = "0";
          forceDetail = "-1";
          position = "35.0051 62.8908 0.834402";
-         rotation = "-0.031282 0.0204965 0.9993 92.115";
+         rotation = "-0.031282 0.0204965 0.9993 92.1148";
          scale = "1 1 1";
          canSave = "1";
          canSaveDynamicFields = "1";
@@ -4582,7 +4626,7 @@ new SimGroup(MissionGroup) {
          renderNormals = "0";
          forceDetail = "-1";
          position = "-4.47792 20.192 -0.555894";
-         rotation = "-0.0219976 -0.0175775 0.999603 77.2766";
+         rotation = "-0.0219976 -0.0175775 0.999604 77.2766";
          scale = "1 1 1";
          canSave = "1";
          canSaveDynamicFields = "1";
@@ -5202,7 +5246,7 @@ new SimGroup(MissionGroup) {
          renderNormals = "0";
          forceDetail = "-1";
          position = "116.044 143.607 1.82364";
-         rotation = "0.0255101 -0.0239554 -0.999388 86.4349";
+         rotation = "0.0255101 -0.0239554 -0.999388 86.4351";
          scale = "1 1 1";
          canSave = "1";
          canSaveDynamicFields = "1";
@@ -7428,7 +7472,7 @@ new SimGroup(MissionGroup) {
          canSaveDynamicFields = "1";
       };
    };
-   new SimGroup(Buildings) {
+   new SimGroup(buildings) {
       canSave = "1";
       canSaveDynamicFields = "1";
 
@@ -9808,7 +9852,7 @@ new SimGroup(MissionGroup) {
       renderNormals = "0";
       forceDetail = "-1";
       position = "123.787 143.581 0.985936";
-      rotation = "0.0289777 -0.0152617 -0.999464 85.7661";
+      rotation = "0.0289777 -0.0152617 -0.999464 85.7663";
       scale = "1 1 1";
       canSave = "1";
       canSaveDynamicFields = "1";

@@ -96,10 +96,20 @@ function pickPlayerSpawnPoint(%spawnGroups)
       %group = getWord(%spawnGroups, %i);
 
       if (isObject(%group))
-         %spawnPoint = %group.getRandom();
-
-      if (isObject(%spawnPoint))
-         return %spawnPoint;
+      {
+         %count = %group.getCount();
+         for(%j = 0; %j < %count; %j++)
+         {
+            %spawnPoint = %group.getObject(%j);
+            if(%spawnPoint.getName() $= $Server::TargetSpawn)
+            {
+               if(isObject(%spawnPoint))
+               {
+                  return %spawnPoint;
+               }
+            }
+         }
+      }
    }
 
    // Didn't find a spawn point by looking for the groups

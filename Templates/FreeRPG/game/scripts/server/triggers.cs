@@ -46,3 +46,23 @@ function DefaultTrigger::onTickTrigger(%this,%trigger)
    //    %trigger.getNumObjects();
    //    %trigger.getObject(n);
 }
+
+function transitionTrigger::onEnterTrigger(%this, %trigger, %obj)
+{
+   // get the .mission dynamic field value of the activated trigger 
+   // and assign it to the global variable $Server::TargetMission for use when 
+   // loading the next mission file
+   
+   $Server::TargetMission = %trigger.mission;
+
+   // get the .target dynamic field value of the activated trigger
+   // and assign it to the global variable $Server::TargetSpawn for use when
+   // spawning the player in the next mission
+   
+   $Server::TargetSpawn = %trigger.target;
+   
+   // call the function to cycle the mission.  This shows the score screen and
+   // then flushes the current mission before loading the next one.
+   
+   cycleGame();
+}
