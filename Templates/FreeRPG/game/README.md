@@ -10,6 +10,8 @@ The FreeRPG Project is an idea to create a totally open-source and free RPG from
 
 [FreeRPG Release Repo](https://gitlab.com/FreeRPG/FreeRPG)
 
+[FreeRPG Wiki](http://freerpgproject.wikidot.com/)
+
 #### Notes ####
 
 * I advise using SSH to clone the repo as opposed to HTTPS due to its size, this requires having an SSH key generated on your system, please see [this link for more information.](https://help.github.com/articles/generating-ssh-keys/)
